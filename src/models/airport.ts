@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+import mongoose, { InferSchemaType } from "mongoose";
 
 import { pointSchema } from "src/models/point";
 
@@ -13,7 +13,7 @@ enum DST {
   U = "U",
 }
 
-const AirportSchema = new mongoose.Schema({
+const airportSchema = new mongoose.Schema({
   city: { type: String, required: true },
   country: { type: String, required: true },
   iata: { type: String, required: true, index: { unique: true } }, // 3-letter IATA code
@@ -36,4 +36,6 @@ const AirportSchema = new mongoose.Schema({
   }, // Daylight savings time,
 });
 
-export const AirportModel = mongoose.model("Airport", AirportSchema);
+export type Airport = InferSchemaType<typeof airportSchema>;
+
+export const AirportModel = mongoose.model("Airport", airportSchema);

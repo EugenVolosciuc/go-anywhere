@@ -1,7 +1,7 @@
 import path from "node:path";
 
-import { CountryExpenses } from ".";
 import { saveTimeLastRan } from "scripts/libs/save-time-last-ran";
+import { CountryExpenses } from "scripts/types";
 
 console.time("total");
 

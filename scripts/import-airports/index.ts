@@ -55,9 +55,9 @@ for (const row of csv) {
   documents.push(document);
 }
 
-await saveTimeLastRan();
-
 await AirportModel.bulkSave(documents);
+
+await saveTimeLastRan();
 
 console.timeEnd("total");
 

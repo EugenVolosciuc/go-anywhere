@@ -1,30 +1,23 @@
 import * as cheerio from "cheerio";
 import parse from "csv-simple-parser";
 import path from "node:path";
-import { CVSCountry } from "scripts/import-countries";
 
 import { saveTimeLastRan } from "scripts/libs/save-time-last-ran";
 import { UNCountries } from "scripts/import-countries/un-countries";
 import { sleep } from "bun";
+import { getDollarAmount } from "scripts/libs/get-dollar-amount";
+import { CSVCountry, CountryExpenses, EXPENSE_TYPE } from "scripts/types";
+
+// TODO: Delete this after modifying the accommodation part of the script
+throw new Error(
+  "Please update the accommodation part of the script before running it"
+);
 
 console.time("total");
 
 // NOTE: all expenses are for a single person, in USD
 
-export type CountryExpenses = Partial<Record<EXPENSE_TYPE, number>> & {
-  "alpha-2": string;
-  budgetType: number;
-};
-
-enum EXPENSE_TYPE {
-  ACCOMMODATION = "accommodation",
-  LOCAL_TRANSPORTATION = "localTransportation",
-  FOOD = "food",
-  ENTERTAINMENT = "entertainment",
-  ALCOHOL = "alcohol",
-}
-
-const DATA_SOURCE = "https://www.budgetyourtrip.com/budgetreportadv.php";
+export const DATA_SOURCE = "https://www.budgetyourtrip.com/budgetreportadv.php";
 const BUDGET_TYPES = [1, 2, 3]; // budget, mid-range, luxury
 
 const EXPENSE_TYPE_MAP: Omit<
@@ -37,41 +30,14 @@ const EXPENSE_TYPE_MAP: Omit<
   alcohol: 12,
 };
 
-const singleAmountRegex = /\$\s*([\d.]+)/;
-const rangeAmountRegex = /\$\s*([\d.]+)\s*-\s*([\d.]+)/;
-
-function extractNumericPart(
-  match: RegExpMatchArray | null,
-  index: number
-): number | undefined {
-  return match && match[index] ? parseFloat(match[index]) : undefined;
-}
-
-const getDollarAmount = (text: string) => {
-  const textWithoutSpaces = text.replaceAll(" ", "").replace(/\s+/g, "");
-  const matchRange = rangeAmountRegex.exec(textWithoutSpaces);
-
-  const rangeLower = extractNumericPart(matchRange, 1);
-  const rangeUpper = extractNumericPart(matchRange, 2);
-
-  if (rangeLower && rangeUpper) {
-    if (rangeLower && rangeUpper) return (rangeLower + rangeUpper) / 2;
-    return null;
-  } else {
-    const matchSingle = singleAmountRegex.exec(textWithoutSpaces);
-
-    return extractNumericPart(matchSingle, 1);
-  }
-};
-
 const countriesFile = Bun.file(
   path.join(import.meta.dir, "..", "import-countries", "countries.csv")
 );
 const countries = parse(await countriesFile.text(), {
   header: true,
-}) as CVSCountry[];
+}) as CSVCountry[];
 
-const dataForUNCountries = countries.reduce<CVSCountry[]>(
+const dataForUNCountries = countries.reduce<CSVCountry[]>(
   (accumulator, country) => {
     if (UNCountries.includes(country.name)) accumulator.push(country);
     return accumulator;
@@ -79,7 +45,9 @@ const dataForUNCountries = countries.reduce<CVSCountry[]>(
   []
 );
 
+const errors = [];
 const countriesExpenses: CountryExpenses[] = [];
+
 for await (const country of dataForUNCountries) {
   for await (const budgetType of BUDGET_TYPES) {
     const countryExpenses: CountryExpenses = {
@@ -113,7 +81,7 @@ for await (const country of dataForUNCountries) {
           console.info(`No info about ${expenseType} expenses.`);
         }
       }
-
+      // TODO: switch to getting info from ".accom-widget-options .accom-button-cost" + budget type
       const accommodationCost = $(
         ".cost-tile-category-accommodation .cost-tile-value.not-bottom .curvalue"
       )
@@ -127,12 +95,19 @@ for await (const country of dataForUNCountries) {
         `Got info for ${country["alpha-2"]}, budget type ${budgetType}.`
       );
     } catch (error) {
-      console.warn(
+      errors.push(
         `Could not get info for ${country["alpha-2"]}, budget type ${budgetType}.`
       );
     }
 
     await sleep(2000);
+  }
+}
+
+if (errors.length > 0) {
+  console.error("Got the following errors:");
+  for (let i = 0; i < errors.length; i++) {
+    console.info(errors[i]);
   }
 }
 
