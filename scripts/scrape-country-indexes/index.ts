@@ -1,5 +1,6 @@
 import path from "node:path";
 import * as cheerio from "cheerio";
+import { saveTimeLastRan } from "scripts/libs/save-time-last-ran";
 
 console.time("total");
 
@@ -31,21 +32,23 @@ const headers = [
 $("tr", table).each((rowIndex, row) => {
   const rowData: Record<string, string> = {};
 
-  // Iterate through each cell in the row
-  $("td, th", row).each((cellIndex, cell) => {
-    const header = $("th", cell).text().trim(); // Use th content as header if available
-    const content = $(cell).text().trim();
+  // Skip the header row
+  if (rowIndex > 0) {
+    // Iterate through each cell in the row
+    $("td, th", row).each((cellIndex, cell) => {
+      const content = $(cell).text().trim();
 
-    // Use header as the key and content as the value in the rowData object
-    if (cellIndex === 0) {
-      rowData[headers[cellIndex]] = (rowIndex + 1).toString();
-    } else {
-      rowData[headers[cellIndex]] = content;
-    }
-  });
+      // Use header as the key and content as the value in the rowData object
+      if (cellIndex === 0) {
+        rowData[headers[cellIndex]] = rowIndex.toString();
+      } else {
+        rowData[headers[cellIndex]] = content;
+      }
+    });
 
-  // Push the rowData object to the result array
-  result.push(rowData);
+    // Push the rowData object to the result array
+    result.push(rowData);
+  }
 });
 
 await Bun.write(
@@ -53,10 +56,7 @@ await Bun.write(
   JSON.stringify(result, undefined, 2)
 );
 
-await Bun.write(
-  Bun.file(path.join(import.meta.dir, "last-ran.txt")),
-  new Date().toISOString()
-);
+await saveTimeLastRan();
 
 console.timeEnd("total");
 

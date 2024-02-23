@@ -5,7 +5,12 @@
     "dev": "bun --watch src/index.ts",
     "build": "bun build src/index.ts",
     "start": "NODE_ENV=production bun src/index.ts",
-    "test": "bun test"
+    "test": "bun test",
+    "script:import-countries": "bun run scripts/import-countries/index.ts",
+    "script:import-airports": "bun run scripts/import-airports/index.ts",
+    "script:scrape-country-indexes": "bun run scripts/scrape-country-indexes/index.ts",
+    "script:scrape-country-expenses": "bun run scripts/scrape-country-expenses/index.ts",
+    "script:add-budget-type": "bun run scripts/scrape-country-expenses/add-budget-type.ts"
   },
   "dependencies": {
     "elysia": "latest",

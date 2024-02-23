@@ -4,6 +4,7 @@ import path from "node:path";
 
 import { AirportModel } from "src/models/airport";
 import { checkIsEmpty, checkIsNumber } from "scripts/libs/type-check";
+import { saveTimeLastRan } from "scripts/libs/save-time-last-ran";
 
 type CSVAirport = {
   AirportID: string;
@@ -54,10 +55,7 @@ for (const row of csv) {
   documents.push(document);
 }
 
-await Bun.write(
-  Bun.file(path.join(import.meta.dir, "last-ran.txt")),
-  new Date().toISOString()
-);
+await saveTimeLastRan();
 
 await AirportModel.bulkSave(documents);
 

@@ -1,0 +1,4586 @@
+[
+  {
+    "accommodation": null,
+    "alpha-2": "AF",
+    "budgetType": 1
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "AF",
+    "budgetType": 2
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "AF",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 5.39,
+    "food": 8.25,
+    "entertainment": 3.29,
+    "alcohol": 3.5,
+    "accommodation": 12,
+    "alpha-2": "AL",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 14,
+    "food": 20,
+    "entertainment": 8.39,
+    "alcohol": 8.5,
+    "accommodation": 28,
+    "alpha-2": "AL",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 42,
+    "food": 46,
+    "entertainment": 22,
+    "alcohol": 23.5,
+    "accommodation": 54,
+    "alpha-2": "AL",
+    "budgetType": 3
+  },
+  {
+    "accommodation": 614,
+    "alpha-2": "DZ",
+    "budgetType": 1
+  },
+  {
+    "accommodation": 1,
+    "alpha-2": "DZ",
+    "budgetType": 2
+  },
+  {
+    "accommodation": 6,
+    "alpha-2": "DZ",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 18,
+    "food": 21,
+    "entertainment": 12,
+    "alcohol": 3.5,
+    "accommodation": 32,
+    "alpha-2": "AD",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 42,
+    "food": 48,
+    "entertainment": 28,
+    "alcohol": 8,
+    "accommodation": 74,
+    "alpha-2": "AD",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 85,
+    "food": 95,
+    "entertainment": 54,
+    "alcohol": 16,
+    "accommodation": 149,
+    "alpha-2": "AD",
+    "budgetType": 3
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "AO",
+    "budgetType": 1
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "AO",
+    "budgetType": 2
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "AO",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 26,
+    "food": 93,
+    "entertainment": 121,
+    "alcohol": 26.5,
+    "accommodation": 92,
+    "alpha-2": "AG",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 63,
+    "food": 224,
+    "entertainment": 295,
+    "alcohol": 63.5,
+    "accommodation": 225,
+    "alpha-2": "AG",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 141,
+    "food": 500,
+    "entertainment": 682,
+    "alcohol": 132,
+    "accommodation": 523,
+    "alpha-2": "AG",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 760,
+    "food": 1,
+    "entertainment": 877,
+    "alcohol": 496.5,
+    "accommodation": 1.36,
+    "alpha-2": "AR",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 1,
+    "food": 2,
+    "entertainment": 2,
+    "alcohol": 340.5,
+    "accommodation": 3.47,
+    "alpha-2": "AR",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 5,
+    "food": 8,
+    "entertainment": 6,
+    "alcohol": 4.5,
+    "accommodation": 8.92,
+    "alpha-2": "AR",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 1.16,
+    "food": 5.29,
+    "entertainment": 0.62,
+    "alcohol": 6.5,
+    "accommodation": 5.43,
+    "alpha-2": "AM",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 3.52,
+    "food": 12,
+    "entertainment": 1.61,
+    "alcohol": 16,
+    "accommodation": 12,
+    "alpha-2": "AM",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 12,
+    "food": 25,
+    "entertainment": 4.38,
+    "alcohol": 32.5,
+    "accommodation": 23,
+    "alpha-2": "AM",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 17,
+    "food": 21,
+    "entertainment": 18,
+    "alcohol": 8.5,
+    "accommodation": 27,
+    "alpha-2": "AU",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 46,
+    "food": 53,
+    "entertainment": 47,
+    "alcohol": 22,
+    "accommodation": 70,
+    "alpha-2": "AU",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 141,
+    "food": 129,
+    "entertainment": 128,
+    "alcohol": 53.5,
+    "accommodation": 191,
+    "alpha-2": "AU",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 10,
+    "food": 16,
+    "entertainment": 9.9,
+    "alcohol": 7.5,
+    "accommodation": 34,
+    "alpha-2": "AT",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 27,
+    "food": 40,
+    "entertainment": 24,
+    "alcohol": 18.5,
+    "accommodation": 87,
+    "alpha-2": "AT",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 73,
+    "food": 97,
+    "entertainment": 57,
+    "alcohol": 44,
+    "accommodation": 226,
+    "alpha-2": "AT",
+    "budgetType": 3
+  },
+  {
+    "accommodation": 0,
+    "alpha-2": "AZ",
+    "budgetType": 1
+  },
+  {
+    "accommodation": 0,
+    "alpha-2": "AZ",
+    "budgetType": 2
+  },
+  {
+    "accommodation": 0,
+    "alpha-2": "AZ",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 16,
+    "food": 25,
+    "entertainment": 15,
+    "alcohol": 10.5,
+    "accommodation": 53,
+    "alpha-2": "BS",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 39,
+    "food": 56,
+    "entertainment": 38,
+    "alcohol": 26,
+    "accommodation": 123,
+    "alpha-2": "BS",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 85,
+    "food": 106,
+    "entertainment": 90,
+    "alcohol": 57.5,
+    "accommodation": 245,
+    "alpha-2": "BS",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 13,
+    "food": 25,
+    "entertainment": 15,
+    "alcohol": 4.5,
+    "accommodation": 29,
+    "alpha-2": "BH",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 30,
+    "food": 56,
+    "entertainment": 34,
+    "alcohol": 11.5,
+    "accommodation": 66,
+    "alpha-2": "BH",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 58,
+    "food": 102,
+    "entertainment": 65,
+    "alcohol": 22,
+    "accommodation": 127,
+    "alpha-2": "BH",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 2.85,
+    "food": 5.7,
+    "entertainment": 7.13,
+    "alcohol": 4.5,
+    "accommodation": 13,
+    "alpha-2": "BD",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 6.51,
+    "food": 13,
+    "entertainment": 16,
+    "alcohol": 10,
+    "accommodation": 31,
+    "alpha-2": "BD",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 12,
+    "food": 25,
+    "entertainment": 31,
+    "alcohol": 19.5,
+    "accommodation": 59,
+    "alpha-2": "BD",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 26,
+    "food": 78,
+    "entertainment": 85,
+    "alcohol": 22,
+    "accommodation": 93,
+    "alpha-2": "BB",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 62,
+    "food": 192,
+    "entertainment": 214,
+    "alcohol": 52.5,
+    "accommodation": 235,
+    "alpha-2": "BB",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 138,
+    "food": 459,
+    "entertainment": 531,
+    "alcohol": 120.5,
+    "accommodation": 586,
+    "alpha-2": "BB",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 4.14,
+    "food": 6.96,
+    "entertainment": 8.52,
+    "alcohol": 5.5,
+    "accommodation": 11,
+    "alpha-2": "BY",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 11,
+    "food": 17,
+    "entertainment": 20,
+    "alcohol": 12.5,
+    "accommodation": 27,
+    "alpha-2": "BY",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 31,
+    "food": 42,
+    "entertainment": 38,
+    "alcohol": 28,
+    "accommodation": 61,
+    "alpha-2": "BY",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 7.86,
+    "food": 18,
+    "entertainment": 8.17,
+    "alcohol": 7.5,
+    "accommodation": 32,
+    "alpha-2": "BE",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 19,
+    "food": 46,
+    "entertainment": 21,
+    "alcohol": 17.5,
+    "accommodation": 76,
+    "alpha-2": "BE",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 41,
+    "food": 113,
+    "entertainment": 54,
+    "alcohol": 40.5,
+    "accommodation": 170,
+    "alpha-2": "BE",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 16,
+    "food": 23,
+    "entertainment": 27,
+    "alcohol": 12.5,
+    "accommodation": 17,
+    "alpha-2": "BZ",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 42,
+    "food": 57,
+    "entertainment": 69,
+    "alcohol": 29.5,
+    "accommodation": 46,
+    "alpha-2": "BZ",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 117,
+    "food": 136,
+    "entertainment": 181,
+    "alcohol": 63.5,
+    "accommodation": 133,
+    "alpha-2": "BZ",
+    "budgetType": 3
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "BJ",
+    "budgetType": 1
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "BJ",
+    "budgetType": 2
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "BJ",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 12,
+    "food": 13,
+    "entertainment": 10,
+    "accommodation": 15,
+    "alpha-2": "BT",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 28,
+    "food": 30,
+    "entertainment": 24,
+    "accommodation": 33,
+    "alpha-2": "BT",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 54,
+    "food": 57,
+    "entertainment": 45,
+    "accommodation": 63,
+    "alpha-2": "BT",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 4.24,
+    "food": 6.81,
+    "entertainment": 7.24,
+    "alcohol": 4.5,
+    "accommodation": 6.61,
+    "alpha-2": "BO",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 11,
+    "food": 17,
+    "entertainment": 18,
+    "alcohol": 11.5,
+    "accommodation": 16,
+    "alpha-2": "BO",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 33,
+    "food": 39,
+    "entertainment": 46,
+    "alcohol": 26.5,
+    "accommodation": 40,
+    "alpha-2": "BO",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 3.25,
+    "food": 11,
+    "entertainment": 3.76,
+    "alcohol": 2,
+    "accommodation": 13,
+    "alpha-2": "BA",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 7.96,
+    "food": 28,
+    "entertainment": 9.05,
+    "alcohol": 4,
+    "accommodation": 32,
+    "alpha-2": "BA",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 19,
+    "food": 71,
+    "entertainment": 20,
+    "alcohol": 10,
+    "accommodation": 77,
+    "alpha-2": "BA",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 1.85,
+    "food": 6.8,
+    "entertainment": 15,
+    "alcohol": 2.5,
+    "accommodation": 13,
+    "alpha-2": "BW",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 4.36,
+    "food": 16,
+    "entertainment": 34,
+    "alcohol": 7.5,
+    "accommodation": 29,
+    "alpha-2": "BW",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 9.23,
+    "food": 34,
+    "entertainment": 65,
+    "alcohol": 15.5,
+    "accommodation": 54,
+    "alpha-2": "BW",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 24,
+    "food": 39,
+    "entertainment": 29,
+    "alcohol": 20,
+    "accommodation": 16,
+    "alpha-2": "BR",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 63,
+    "food": 100,
+    "entertainment": 76,
+    "alcohol": 52.5,
+    "accommodation": 43,
+    "alpha-2": "BR",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 172,
+    "food": 258,
+    "entertainment": 210,
+    "alcohol": 146,
+    "accommodation": 123,
+    "alpha-2": "BR",
+    "budgetType": 3
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "BN",
+    "budgetType": 1
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "BN",
+    "budgetType": 2
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "BN",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 5.61,
+    "food": 6.37,
+    "entertainment": 4.37,
+    "alcohol": 3.5,
+    "accommodation": 16,
+    "alpha-2": "BG",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 14,
+    "food": 17,
+    "entertainment": 11,
+    "alcohol": 8,
+    "accommodation": 37,
+    "alpha-2": "BG",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 35,
+    "food": 46,
+    "entertainment": 25,
+    "alcohol": 18,
+    "accommodation": 77,
+    "alpha-2": "BG",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 4.62,
+    "food": 3.15,
+    "alcohol": 1.5,
+    "accommodation": 6.01,
+    "alpha-2": "BF",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 11,
+    "food": 6.77,
+    "alcohol": 1.5,
+    "accommodation": 13,
+    "alpha-2": "BF",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 24,
+    "food": 10,
+    "alcohol": 1.5,
+    "accommodation": 22,
+    "alpha-2": "BF",
+    "budgetType": 3
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "BI",
+    "budgetType": 1
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "BI",
+    "budgetType": 2
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "BI",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 13,
+    "food": 13,
+    "entertainment": 7.14,
+    "alcohol": 6,
+    "accommodation": 29,
+    "alpha-2": "CV",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 30,
+    "food": 30,
+    "entertainment": 16,
+    "alcohol": 8,
+    "accommodation": 66,
+    "alpha-2": "CV",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 57,
+    "food": 59,
+    "entertainment": 31,
+    "alcohol": 12,
+    "accommodation": 126,
+    "alpha-2": "CV",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 2.83,
+    "food": 6.64,
+    "entertainment": 5.47,
+    "alcohol": 2.5,
+    "accommodation": 7.55,
+    "alpha-2": "KH",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 7.44,
+    "food": 16,
+    "entertainment": 15,
+    "alcohol": 6,
+    "accommodation": 23,
+    "alpha-2": "KH",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 20,
+    "food": 35,
+    "entertainment": 44,
+    "alcohol": 15.5,
+    "accommodation": 77,
+    "alpha-2": "KH",
+    "budgetType": 3
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "CM",
+    "budgetType": 1
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "CM",
+    "budgetType": 2
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "CM",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 11,
+    "food": 20,
+    "entertainment": 13,
+    "alcohol": 8.5,
+    "accommodation": 34,
+    "alpha-2": "CA",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 30,
+    "food": 53,
+    "entertainment": 33,
+    "alcohol": 23.5,
+    "accommodation": 95,
+    "alpha-2": "CA",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 85,
+    "food": 150,
+    "entertainment": 89,
+    "alcohol": 62.5,
+    "accommodation": 297,
+    "alpha-2": "CA",
+    "budgetType": 3
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "CF",
+    "budgetType": 1
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "CF",
+    "budgetType": 2
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "CF",
+    "budgetType": 3
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "TD",
+    "budgetType": 1
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "TD",
+    "budgetType": 2
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "TD",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 5,
+    "food": 8,
+    "entertainment": 9,
+    "alcohol": 4.5,
+    "accommodation": 21,
+    "alpha-2": "CL",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 14,
+    "food": 22,
+    "entertainment": 25,
+    "alcohol": 12,
+    "accommodation": 59,
+    "alpha-2": "CL",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 38,
+    "food": 58,
+    "entertainment": 62,
+    "alcohol": 34.5,
+    "accommodation": 176,
+    "alpha-2": "CL",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 6,
+    "food": 9.34,
+    "entertainment": 6.81,
+    "alcohol": 4.5,
+    "accommodation": 14,
+    "alpha-2": "CN",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 16,
+    "food": 23,
+    "entertainment": 17,
+    "alcohol": 11.5,
+    "accommodation": 34,
+    "alpha-2": "CN",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 45,
+    "food": 54,
+    "entertainment": 40,
+    "alcohol": 28.5,
+    "accommodation": 86,
+    "alpha-2": "CN",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 10,
+    "food": 17,
+    "entertainment": 21,
+    "alcohol": 3.5,
+    "accommodation": 5.18,
+    "alpha-2": "CO",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 30,
+    "food": 46,
+    "entertainment": 55,
+    "alcohol": 9.5,
+    "accommodation": 15,
+    "alpha-2": "CO",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 95,
+    "food": 124,
+    "entertainment": 148,
+    "alcohol": 25.5,
+    "accommodation": 45,
+    "alpha-2": "CO",
+    "budgetType": 3
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "KM",
+    "budgetType": 1
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "KM",
+    "budgetType": 2
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "KM",
+    "budgetType": 3
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "CG",
+    "budgetType": 1
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "CG",
+    "budgetType": 2
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "CG",
+    "budgetType": 3
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "CD",
+    "budgetType": 1
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "CD",
+    "budgetType": 2
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "CD",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 9.39,
+    "food": 10,
+    "entertainment": 12,
+    "alcohol": 5.5,
+    "accommodation": 23,
+    "alpha-2": "CR",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 26,
+    "food": 25,
+    "entertainment": 31,
+    "alcohol": 12.5,
+    "accommodation": 59,
+    "alpha-2": "CR",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 73,
+    "food": 56,
+    "entertainment": 76,
+    "alcohol": 28,
+    "accommodation": 151,
+    "alpha-2": "CR",
+    "budgetType": 3
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "CI",
+    "budgetType": 1
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "CI",
+    "budgetType": 2
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "CI",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 5.18,
+    "food": 13,
+    "entertainment": 5.53,
+    "alcohol": 4.5,
+    "accommodation": 22,
+    "alpha-2": "HR",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 13,
+    "food": 32,
+    "entertainment": 14,
+    "alcohol": 12,
+    "accommodation": 54,
+    "alpha-2": "HR",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 35,
+    "food": 75,
+    "entertainment": 38,
+    "alcohol": 29.5,
+    "accommodation": 123,
+    "alpha-2": "HR",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 3.19,
+    "food": 3.5,
+    "entertainment": 3.23,
+    "alcohol": 1.5,
+    "accommodation": 8,
+    "alpha-2": "CU",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 9.64,
+    "food": 9.97,
+    "entertainment": 8.27,
+    "alcohol": 4,
+    "accommodation": 23,
+    "alpha-2": "CU",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 33,
+    "food": 32,
+    "entertainment": 21,
+    "alcohol": 12,
+    "accommodation": 74,
+    "alpha-2": "CU",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 5.25,
+    "food": 19,
+    "entertainment": 5.57,
+    "alcohol": 4.5,
+    "accommodation": 22,
+    "alpha-2": "CY",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 13,
+    "food": 45,
+    "entertainment": 13,
+    "alcohol": 10.5,
+    "accommodation": 51,
+    "alpha-2": "CY",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 33,
+    "food": 93,
+    "entertainment": 26,
+    "alcohol": 24.5,
+    "accommodation": 107,
+    "alpha-2": "CY",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 3.74,
+    "food": 11,
+    "entertainment": 6.3,
+    "alcohol": 4.5,
+    "accommodation": 24,
+    "alpha-2": "CZ",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 9.5,
+    "food": 26,
+    "entertainment": 16,
+    "alcohol": 11.5,
+    "accommodation": 61,
+    "alpha-2": "CZ",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 24,
+    "food": 57,
+    "entertainment": 38,
+    "alcohol": 28,
+    "accommodation": 155,
+    "alpha-2": "CZ",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 14,
+    "food": 22,
+    "entertainment": 14,
+    "alcohol": 8,
+    "accommodation": 36,
+    "alpha-2": "DK",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 35,
+    "food": 55,
+    "entertainment": 44,
+    "alcohol": 18.5,
+    "accommodation": 88,
+    "alpha-2": "DK",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 84,
+    "food": 127,
+    "entertainment": 154,
+    "alcohol": 41.5,
+    "accommodation": 202,
+    "alpha-2": "DK",
+    "budgetType": 3
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "DJ",
+    "budgetType": 1
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "DJ",
+    "budgetType": 2
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "DJ",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 18,
+    "food": 56,
+    "entertainment": 43,
+    "alcohol": 20,
+    "accommodation": 59,
+    "alpha-2": "DM",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 41,
+    "food": 128,
+    "entertainment": 102,
+    "alcohol": 46,
+    "accommodation": 135,
+    "alpha-2": "DM",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 77,
+    "food": 251,
+    "entertainment": 210,
+    "alcohol": 88.5,
+    "accommodation": 257,
+    "alpha-2": "DM",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 144,
+    "food": 878,
+    "entertainment": 639,
+    "alcohol": 228.5,
+    "accommodation": 31,
+    "alpha-2": "DO",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 358,
+    "food": 2,
+    "entertainment": 1,
+    "alcohol": 585.5,
+    "accommodation": 83,
+    "alpha-2": "DO",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 866,
+    "food": 4,
+    "entertainment": 4,
+    "alcohol": 381,
+    "accommodation": 227,
+    "alpha-2": "DO",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 3.49,
+    "food": 7.46,
+    "entertainment": 8.33,
+    "alcohol": 4.5,
+    "accommodation": 8.26,
+    "alpha-2": "EC",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 10,
+    "food": 19,
+    "entertainment": 21,
+    "alcohol": 12,
+    "accommodation": 20,
+    "alpha-2": "EC",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 34,
+    "food": 45,
+    "entertainment": 55,
+    "alcohol": 32.5,
+    "accommodation": 47,
+    "alpha-2": "EC",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 1.62,
+    "food": 2.96,
+    "entertainment": 3.35,
+    "accommodation": 4.53,
+    "alpha-2": "EG",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 4.34,
+    "food": 7.86,
+    "entertainment": 8.58,
+    "alcohol": 2,
+    "accommodation": 11,
+    "alpha-2": "EG",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 12,
+    "food": 22,
+    "entertainment": 22,
+    "alcohol": 6,
+    "accommodation": 28,
+    "alpha-2": "EG",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 2.66,
+    "food": 5.3,
+    "entertainment": 15,
+    "alcohol": 8,
+    "accommodation": 4.07,
+    "alpha-2": "SV",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 6.94,
+    "food": 14,
+    "entertainment": 36,
+    "alcohol": 23.5,
+    "accommodation": 9.62,
+    "alpha-2": "SV",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 19,
+    "food": 36,
+    "entertainment": 86,
+    "alcohol": 74.5,
+    "accommodation": 20,
+    "alpha-2": "SV",
+    "budgetType": 3
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "GQ",
+    "budgetType": 1
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "GQ",
+    "budgetType": 2
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "GQ",
+    "budgetType": 3
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "ER",
+    "budgetType": 1
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "ER",
+    "budgetType": 2
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "ER",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 9.87,
+    "food": 14,
+    "entertainment": 5.98,
+    "alcohol": 6,
+    "accommodation": 19,
+    "alpha-2": "EE",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 24,
+    "food": 35,
+    "entertainment": 15,
+    "alcohol": 14,
+    "accommodation": 46,
+    "alpha-2": "EE",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 59,
+    "food": 89,
+    "entertainment": 37,
+    "alcohol": 30.5,
+    "accommodation": 106,
+    "alpha-2": "EE",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 5.64,
+    "food": 13,
+    "entertainment": 8.6,
+    "alcohol": 4.5,
+    "accommodation": 17,
+    "alpha-2": "SZ",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 13,
+    "food": 29,
+    "entertainment": 20,
+    "alcohol": 10,
+    "accommodation": 40,
+    "alpha-2": "SZ",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 25,
+    "food": 56,
+    "entertainment": 38,
+    "alcohol": 19.5,
+    "accommodation": 76,
+    "alpha-2": "SZ",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 2.31,
+    "food": 5.28,
+    "entertainment": 6.98,
+    "alcohol": 2.5,
+    "accommodation": 11,
+    "alpha-2": "ET",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 6.34,
+    "food": 15,
+    "entertainment": 20,
+    "alcohol": 6.5,
+    "accommodation": 30,
+    "alpha-2": "ET",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 19,
+    "food": 46,
+    "entertainment": 62,
+    "alcohol": 18.5,
+    "accommodation": 90,
+    "alpha-2": "ET",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 7.92,
+    "food": 38,
+    "entertainment": 21,
+    "alcohol": 10.5,
+    "accommodation": 44,
+    "alpha-2": "FJ",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 20,
+    "food": 87,
+    "entertainment": 71,
+    "alcohol": 25.5,
+    "accommodation": 105,
+    "alpha-2": "FJ",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 49,
+    "food": 161,
+    "entertainment": 279,
+    "alcohol": 60,
+    "accommodation": 235,
+    "alpha-2": "FJ",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 17,
+    "food": 16,
+    "entertainment": 12,
+    "alcohol": 6,
+    "accommodation": 33,
+    "alpha-2": "FI",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 40,
+    "food": 40,
+    "entertainment": 28,
+    "alcohol": 14.5,
+    "accommodation": 79,
+    "alpha-2": "FI",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 93,
+    "food": 90,
+    "entertainment": 57,
+    "alcohol": 32,
+    "accommodation": 167,
+    "alpha-2": "FI",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 13,
+    "food": 18,
+    "entertainment": 13,
+    "alcohol": 8,
+    "accommodation": 52,
+    "alpha-2": "FR",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 32,
+    "food": 45,
+    "entertainment": 35,
+    "alcohol": 20.5,
+    "accommodation": 164,
+    "alpha-2": "FR",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 78,
+    "food": 110,
+    "entertainment": 107,
+    "alcohol": 54.5,
+    "accommodation": 599,
+    "alpha-2": "FR",
+    "budgetType": 3
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "GA",
+    "budgetType": 1
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "GA",
+    "budgetType": 2
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "GA",
+    "budgetType": 3
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "GM",
+    "budgetType": 1
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "GM",
+    "budgetType": 2
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "GM",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 2.06,
+    "food": 3.58,
+    "entertainment": 5.8,
+    "alcohol": 6,
+    "accommodation": 3.97,
+    "alpha-2": "GE",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 5.85,
+    "food": 8.85,
+    "entertainment": 14,
+    "alcohol": 16,
+    "accommodation": 12,
+    "alpha-2": "GE",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 18,
+    "food": 21,
+    "entertainment": 31,
+    "alcohol": 38.5,
+    "accommodation": 41,
+    "alpha-2": "GE",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 10,
+    "food": 17,
+    "entertainment": 12,
+    "alcohol": 9.5,
+    "accommodation": 33,
+    "alpha-2": "DE",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 26,
+    "food": 43,
+    "entertainment": 31,
+    "alcohol": 23.5,
+    "accommodation": 80,
+    "alpha-2": "DE",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 65,
+    "food": 103,
+    "entertainment": 77,
+    "alcohol": 58,
+    "accommodation": 181,
+    "alpha-2": "DE",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 3.94,
+    "food": 2.59,
+    "entertainment": 1.3,
+    "alcohol": 1.5,
+    "accommodation": 3.99,
+    "alpha-2": "GH",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 9.5,
+    "food": 6.97,
+    "entertainment": 3.06,
+    "alcohol": 3.5,
+    "accommodation": 11,
+    "alpha-2": "GH",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 21,
+    "food": 20,
+    "entertainment": 6.4,
+    "alcohol": 9.5,
+    "accommodation": 32,
+    "alpha-2": "GH",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 13,
+    "food": 18,
+    "entertainment": 11,
+    "alcohol": 8.5,
+    "accommodation": 31,
+    "alpha-2": "GR",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 32,
+    "food": 43,
+    "entertainment": 27,
+    "alcohol": 20.5,
+    "accommodation": 80,
+    "alpha-2": "GR",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 79,
+    "food": 96,
+    "entertainment": 64,
+    "alcohol": 50.5,
+    "accommodation": 218,
+    "alpha-2": "GR",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 19,
+    "food": 73,
+    "entertainment": 52,
+    "alcohol": 22.5,
+    "accommodation": 86,
+    "alpha-2": "GD",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 43,
+    "food": 168,
+    "entertainment": 121,
+    "alcohol": 53.5,
+    "accommodation": 211,
+    "alpha-2": "GD",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 87,
+    "food": 327,
+    "entertainment": 252,
+    "alcohol": 109.5,
+    "accommodation": 487,
+    "alpha-2": "GD",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 3.49,
+    "food": 5.5,
+    "entertainment": 9.09,
+    "alcohol": 3.5,
+    "accommodation": 6.56,
+    "alpha-2": "GT",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 8.88,
+    "food": 14,
+    "entertainment": 22,
+    "alcohol": 8,
+    "accommodation": 16,
+    "alpha-2": "GT",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 23,
+    "food": 34,
+    "entertainment": 52,
+    "alcohol": 20,
+    "accommodation": 40,
+    "alpha-2": "GT",
+    "budgetType": 3
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "GN",
+    "budgetType": 1
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "GN",
+    "budgetType": 2
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "GN",
+    "budgetType": 3
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "GW",
+    "budgetType": 1
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "GW",
+    "budgetType": 2
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "GW",
+    "budgetType": 3
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "GY",
+    "budgetType": 1
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "GY",
+    "budgetType": 2
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "GY",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 1.12,
+    "food": 2.45,
+    "entertainment": 3,
+    "accommodation": 23,
+    "alpha-2": "HT",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 2.97,
+    "food": 5.94,
+    "entertainment": 7.82,
+    "accommodation": 27,
+    "alpha-2": "HT",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 8.21,
+    "food": 14,
+    "entertainment": 21,
+    "accommodation": 34,
+    "alpha-2": "HT",
+    "budgetType": 3
+  },
+  {
+    "entertainment": 18,
+    "accommodation": null,
+    "alpha-2": "VA",
+    "budgetType": 1
+  },
+  {
+    "entertainment": 38,
+    "accommodation": null,
+    "alpha-2": "VA",
+    "budgetType": 2
+  },
+  {
+    "entertainment": 56,
+    "accommodation": null,
+    "alpha-2": "VA",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 12,
+    "food": 4.94,
+    "entertainment": 11,
+    "alcohol": 2.5,
+    "accommodation": 5.27,
+    "alpha-2": "HN",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 31,
+    "food": 13,
+    "entertainment": 26,
+    "alcohol": 8,
+    "accommodation": 14,
+    "alpha-2": "HN",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 79,
+    "food": 33,
+    "entertainment": 55,
+    "alcohol": 21.5,
+    "accommodation": 41,
+    "alpha-2": "HN",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 4.83,
+    "food": 8.93,
+    "entertainment": 6.1,
+    "alcohol": 4.5,
+    "accommodation": 17,
+    "alpha-2": "HU",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 12,
+    "food": 23,
+    "entertainment": 16,
+    "alcohol": 12,
+    "accommodation": 42,
+    "alpha-2": "HU",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 29,
+    "food": 57,
+    "entertainment": 41,
+    "alcohol": 32.5,
+    "accommodation": 108,
+    "alpha-2": "HU",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 13,
+    "food": 15,
+    "entertainment": 16,
+    "alcohol": 6.5,
+    "accommodation": 39,
+    "alpha-2": "IS",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 31,
+    "food": 35,
+    "entertainment": 42,
+    "alcohol": 15.5,
+    "accommodation": 96,
+    "alpha-2": "IS",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 72,
+    "food": 82,
+    "entertainment": 124,
+    "alcohol": 32.5,
+    "accommodation": 224,
+    "alpha-2": "IS",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 2.4,
+    "food": 4.05,
+    "entertainment": 3.87,
+    "alcohol": 2.5,
+    "accommodation": 6.56,
+    "alpha-2": "IN",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 6.61,
+    "food": 10,
+    "entertainment": 10,
+    "alcohol": 7.5,
+    "accommodation": 17,
+    "alpha-2": "IN",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 20,
+    "food": 28,
+    "entertainment": 30,
+    "alcohol": 20,
+    "accommodation": 46,
+    "alpha-2": "IN",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 2.56,
+    "food": 6.12,
+    "entertainment": 3.65,
+    "alcohol": 2,
+    "accommodation": 11,
+    "alpha-2": "ID",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 7.59,
+    "food": 16,
+    "entertainment": 9.91,
+    "alcohol": 4.5,
+    "accommodation": 32,
+    "alpha-2": "ID",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 26,
+    "food": 41,
+    "entertainment": 29,
+    "alcohol": 11.5,
+    "accommodation": 100,
+    "alpha-2": "ID",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 0.63,
+    "food": 3.45,
+    "entertainment": 2.3,
+    "accommodation": 16,
+    "alpha-2": "IR",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 1.92,
+    "food": 8.18,
+    "entertainment": 5.15,
+    "accommodation": 43,
+    "alpha-2": "IR",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 6.78,
+    "food": 17,
+    "entertainment": 9.18,
+    "accommodation": 125,
+    "alpha-2": "IR",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 24,
+    "accommodation": 5.97,
+    "alpha-2": "IQ",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 24,
+    "accommodation": 16,
+    "alpha-2": "IQ",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 24,
+    "accommodation": 46,
+    "alpha-2": "IQ",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 10,
+    "food": 18,
+    "entertainment": 8.39,
+    "alcohol": 7.5,
+    "accommodation": 27,
+    "alpha-2": "IE",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 24,
+    "food": 44,
+    "entertainment": 21,
+    "alcohol": 16.5,
+    "accommodation": 68,
+    "alpha-2": "IE",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 53,
+    "food": 108,
+    "entertainment": 49,
+    "alcohol": 36,
+    "accommodation": 162,
+    "alpha-2": "IE",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 3.11,
+    "food": 14,
+    "entertainment": 5.35,
+    "alcohol": 8,
+    "accommodation": 29,
+    "alpha-2": "IL",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 8.33,
+    "food": 34,
+    "entertainment": 13,
+    "alcohol": 19.5,
+    "accommodation": 71,
+    "alpha-2": "IL",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 24,
+    "food": 76,
+    "entertainment": 30,
+    "alcohol": 41.5,
+    "accommodation": 167,
+    "alpha-2": "IL",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 11,
+    "food": 20,
+    "entertainment": 11,
+    "alcohol": 7.5,
+    "accommodation": 37,
+    "alpha-2": "IT",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 28,
+    "food": 49,
+    "entertainment": 28,
+    "alcohol": 18,
+    "accommodation": 92,
+    "alpha-2": "IT",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 75,
+    "food": 119,
+    "entertainment": 77,
+    "alcohol": 44.5,
+    "accommodation": 226,
+    "alpha-2": "IT",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 828,
+    "food": 1,
+    "entertainment": 1,
+    "alcohol": 652,
+    "accommodation": 33,
+    "alpha-2": "JM",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 2,
+    "food": 3,
+    "entertainment": 3,
+    "alcohol": 395,
+    "accommodation": 82,
+    "alpha-2": "JM",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 5,
+    "food": 8,
+    "entertainment": 8,
+    "alcohol": 22.5,
+    "accommodation": 201,
+    "alpha-2": "JM",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 6.86,
+    "food": 12,
+    "entertainment": 6.86,
+    "alcohol": 6,
+    "accommodation": 24,
+    "alpha-2": "JP",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 18,
+    "food": 31,
+    "entertainment": 19,
+    "alcohol": 15.5,
+    "accommodation": 60,
+    "alpha-2": "JP",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 51,
+    "food": 75,
+    "entertainment": 61,
+    "alcohol": 42.5,
+    "accommodation": 146,
+    "alpha-2": "JP",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 10,
+    "food": 15,
+    "entertainment": 19,
+    "alcohol": 6,
+    "accommodation": 23,
+    "alpha-2": "JO",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 23,
+    "food": 37,
+    "entertainment": 45,
+    "alcohol": 13.5,
+    "accommodation": 55,
+    "alpha-2": "JO",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 47,
+    "food": 83,
+    "entertainment": 93,
+    "alcohol": 27.5,
+    "accommodation": 115,
+    "alpha-2": "JO",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 0.27,
+    "food": 2.79,
+    "entertainment": 1.16,
+    "alcohol": 5.5,
+    "accommodation": 3.43,
+    "alpha-2": "KZ",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 0.77,
+    "food": 6.48,
+    "entertainment": 2.89,
+    "alcohol": 13.5,
+    "accommodation": 7.96,
+    "alpha-2": "KZ",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 2.48,
+    "food": 13,
+    "entertainment": 7.12,
+    "alcohol": 38,
+    "accommodation": 16,
+    "alpha-2": "KZ",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 11,
+    "food": 8.9,
+    "entertainment": 13,
+    "alcohol": 5.5,
+    "accommodation": 11,
+    "alpha-2": "KE",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 27,
+    "food": 22,
+    "entertainment": 31,
+    "alcohol": 13.5,
+    "accommodation": 26,
+    "alpha-2": "KE",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 62,
+    "food": 53,
+    "entertainment": 77,
+    "alcohol": 32,
+    "accommodation": 54,
+    "alpha-2": "KE",
+    "budgetType": 3
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "KI",
+    "budgetType": 1
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "KI",
+    "budgetType": 2
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "KI",
+    "budgetType": 3
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "KP",
+    "budgetType": 1
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "KP",
+    "budgetType": 2
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "KP",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 5.8,
+    "food": 11,
+    "entertainment": 9.71,
+    "alcohol": 4.5,
+    "accommodation": 21,
+    "alpha-2": "KR",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 16,
+    "food": 29,
+    "entertainment": 27,
+    "alcohol": 12,
+    "accommodation": 50,
+    "alpha-2": "KR",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 50,
+    "food": 75,
+    "entertainment": 80,
+    "alcohol": 26.5,
+    "accommodation": 115,
+    "alpha-2": "KR",
+    "budgetType": 3
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "KW",
+    "budgetType": 1
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "KW",
+    "budgetType": 2
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "KW",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 0.27,
+    "food": 1.89,
+    "entertainment": 4.54,
+    "alcohol": 3.5,
+    "accommodation": 6.56,
+    "alpha-2": "KG",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 0.68,
+    "food": 4.61,
+    "entertainment": 4.54,
+    "alcohol": 8.5,
+    "accommodation": 8.45,
+    "alpha-2": "KG",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 1.72,
+    "food": 11,
+    "entertainment": 4.54,
+    "alcohol": 21.5,
+    "accommodation": 12,
+    "alpha-2": "KG",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 0.82,
+    "food": 2.36,
+    "entertainment": 1.01,
+    "accommodation": 2.37,
+    "alpha-2": "LA",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 2.06,
+    "food": 5.8,
+    "entertainment": 2.75,
+    "alcohol": 2,
+    "accommodation": 5.97,
+    "alpha-2": "LA",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 5.17,
+    "food": 14,
+    "entertainment": 8.08,
+    "alcohol": 4.5,
+    "accommodation": 15,
+    "alpha-2": "LA",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 8.15,
+    "food": 15,
+    "entertainment": 6.41,
+    "alcohol": 8,
+    "accommodation": 23,
+    "alpha-2": "LV",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 21,
+    "food": 37,
+    "entertainment": 16,
+    "alcohol": 20,
+    "accommodation": 55,
+    "alpha-2": "LV",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 58,
+    "food": 89,
+    "entertainment": 42,
+    "alcohol": 46.5,
+    "accommodation": 126,
+    "alpha-2": "LV",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 1.16,
+    "food": 1.86,
+    "entertainment": 0.67,
+    "accommodation": 3.25,
+    "alpha-2": "LB",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 2.63,
+    "food": 4.24,
+    "entertainment": 1.57,
+    "alcohol": 1.5,
+    "accommodation": 7.49,
+    "alpha-2": "LB",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 4.93,
+    "food": 8.02,
+    "entertainment": 3.19,
+    "alcohol": 2.5,
+    "accommodation": 15,
+    "alpha-2": "LB",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 4.22,
+    "food": 12,
+    "entertainment": 6.43,
+    "alcohol": 2,
+    "accommodation": 9.48,
+    "alpha-2": "LS",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 9.64,
+    "food": 28,
+    "entertainment": 15,
+    "alcohol": 4,
+    "accommodation": 22,
+    "alpha-2": "LS",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 18,
+    "food": 53,
+    "entertainment": 28,
+    "alcohol": 8,
+    "accommodation": 41,
+    "alpha-2": "LS",
+    "budgetType": 3
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "LR",
+    "budgetType": 1
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "LR",
+    "budgetType": 2
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "LR",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 5.17,
+    "food": 2.04,
+    "alcohol": 1,
+    "accommodation": 52,
+    "alpha-2": "LY",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 5.17,
+    "food": 4.59,
+    "alcohol": 1,
+    "accommodation": 52,
+    "alpha-2": "LY",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 5.17,
+    "food": 8.38,
+    "alcohol": 1,
+    "accommodation": 52,
+    "alpha-2": "LY",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 21,
+    "food": 34,
+    "entertainment": 14,
+    "alcohol": 12.5,
+    "accommodation": 60,
+    "alpha-2": "LI",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 48,
+    "food": 77,
+    "entertainment": 32,
+    "alcohol": 28.5,
+    "accommodation": 137,
+    "alpha-2": "LI",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 91,
+    "food": 147,
+    "entertainment": 62,
+    "alcohol": 54.5,
+    "accommodation": 263,
+    "alpha-2": "LI",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 5.05,
+    "food": 15,
+    "entertainment": 5.78,
+    "alcohol": 5.5,
+    "accommodation": 20,
+    "alpha-2": "LT",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 13,
+    "food": 39,
+    "entertainment": 14,
+    "alcohol": 12.5,
+    "accommodation": 45,
+    "alpha-2": "LT",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 31,
+    "food": 99,
+    "entertainment": 34,
+    "alcohol": 29.5,
+    "accommodation": 91,
+    "alpha-2": "LT",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 5.61,
+    "food": 37,
+    "entertainment": 5.06,
+    "alcohol": 5.5,
+    "accommodation": 42,
+    "alpha-2": "LU",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 14,
+    "food": 87,
+    "entertainment": 12,
+    "alcohol": 12,
+    "accommodation": 95,
+    "alpha-2": "LU",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 31,
+    "food": 172,
+    "entertainment": 23,
+    "alcohol": 24,
+    "accommodation": 186,
+    "alpha-2": "LU",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 6.02,
+    "food": 13,
+    "entertainment": 7.41,
+    "alcohol": 4,
+    "accommodation": 15,
+    "alpha-2": "MG",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 14,
+    "food": 30,
+    "entertainment": 18,
+    "alcohol": 9.5,
+    "accommodation": 35,
+    "alpha-2": "MG",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 27,
+    "food": 63,
+    "entertainment": 37,
+    "alcohol": 19.5,
+    "accommodation": 74,
+    "alpha-2": "MG",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 5.74,
+    "food": 4.66,
+    "entertainment": 6.35,
+    "alcohol": 2.5,
+    "accommodation": 6.43,
+    "alpha-2": "MW",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 13,
+    "food": 11,
+    "entertainment": 15,
+    "alcohol": 6,
+    "accommodation": 15,
+    "alpha-2": "MW",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 24,
+    "food": 21,
+    "entertainment": 28,
+    "alcohol": 11.5,
+    "accommodation": 28,
+    "alpha-2": "MW",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 4.13,
+    "food": 6.67,
+    "entertainment": 9.07,
+    "alcohol": 4,
+    "accommodation": 15,
+    "alpha-2": "MY",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 12,
+    "food": 18,
+    "entertainment": 26,
+    "alcohol": 10.5,
+    "accommodation": 43,
+    "alpha-2": "MY",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 37,
+    "food": 54,
+    "entertainment": 81,
+    "alcohol": 26.5,
+    "accommodation": 140,
+    "alpha-2": "MY",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 55,
+    "food": 30,
+    "entertainment": 16,
+    "alcohol": 14.5,
+    "accommodation": 48,
+    "alpha-2": "MV",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 139,
+    "food": 78,
+    "entertainment": 37,
+    "alcohol": 34,
+    "accommodation": 118,
+    "alpha-2": "MV",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 343,
+    "food": 205,
+    "entertainment": 70,
+    "alcohol": 65.5,
+    "accommodation": 274,
+    "alpha-2": "MV",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 1.42,
+    "food": 3.94,
+    "entertainment": 3.6,
+    "accommodation": 13,
+    "alpha-2": "ML",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 3.73,
+    "food": 9.06,
+    "entertainment": 9.58,
+    "alcohol": 2,
+    "accommodation": 15,
+    "alpha-2": "ML",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 10,
+    "food": 18,
+    "entertainment": 27,
+    "alcohol": 3.5,
+    "accommodation": 19,
+    "alpha-2": "ML",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 9.69,
+    "food": 15,
+    "entertainment": 12,
+    "alcohol": 7.5,
+    "accommodation": 31,
+    "alpha-2": "MT",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 25,
+    "food": 35,
+    "entertainment": 29,
+    "alcohol": 17.5,
+    "accommodation": 70,
+    "alpha-2": "MT",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 64,
+    "food": 68,
+    "entertainment": 67,
+    "alcohol": 36,
+    "accommodation": 134,
+    "alpha-2": "MT",
+    "budgetType": 3
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "MH",
+    "budgetType": 1
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "MH",
+    "budgetType": 2
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "MH",
+    "budgetType": 3
+  },
+  {
+    "accommodation": 0,
+    "alpha-2": "MR",
+    "budgetType": 1
+  },
+  {
+    "accommodation": 0,
+    "alpha-2": "MR",
+    "budgetType": 2
+  },
+  {
+    "accommodation": 0,
+    "alpha-2": "MR",
+    "budgetType": 3
+  },
+  {
+    "accommodation": 16,
+    "alpha-2": "MU",
+    "budgetType": 1
+  },
+  {
+    "accommodation": 16,
+    "alpha-2": "MU",
+    "budgetType": 2
+  },
+  {
+    "accommodation": 16,
+    "alpha-2": "MU",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 125,
+    "food": 189,
+    "entertainment": 150,
+    "alcohol": 111.5,
+    "accommodation": 18,
+    "alpha-2": "MX",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 345,
+    "food": 504,
+    "entertainment": 432,
+    "alcohol": 300.5,
+    "accommodation": 50,
+    "alpha-2": "MX",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 1,
+    "food": 1,
+    "entertainment": 1,
+    "alcohol": 217.5,
+    "accommodation": 146,
+    "alpha-2": "MX",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 13,
+    "food": 20,
+    "entertainment": 12,
+    "alcohol": 5.5,
+    "accommodation": 55,
+    "alpha-2": "FM",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 30,
+    "food": 45,
+    "entertainment": 26,
+    "alcohol": 12,
+    "accommodation": 126,
+    "alpha-2": "FM",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 57,
+    "food": 86,
+    "entertainment": 51,
+    "alcohol": 23.5,
+    "accommodation": 240,
+    "alpha-2": "FM",
+    "budgetType": 3
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "MD",
+    "budgetType": 1
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "MD",
+    "budgetType": 2
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "MD",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 9.43,
+    "food": 28,
+    "entertainment": 22,
+    "alcohol": 26.5,
+    "accommodation": 57,
+    "alpha-2": "MC",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 22,
+    "food": 63,
+    "entertainment": 55,
+    "alcohol": 65.5,
+    "accommodation": 132,
+    "alpha-2": "MC",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 43,
+    "food": 123,
+    "entertainment": 132,
+    "alcohol": 153.5,
+    "accommodation": 265,
+    "alpha-2": "MC",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 1.12,
+    "food": 3.19,
+    "entertainment": 1.72,
+    "alcohol": 1.5,
+    "accommodation": 4.2,
+    "alpha-2": "MN",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 2.92,
+    "food": 8.17,
+    "entertainment": 4.18,
+    "alcohol": 4,
+    "accommodation": 11,
+    "alpha-2": "MN",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 7.89,
+    "food": 21,
+    "entertainment": 9.56,
+    "alcohol": 8.5,
+    "accommodation": 29,
+    "alpha-2": "MN",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 7.04,
+    "food": 16,
+    "entertainment": 6.91,
+    "alcohol": 6,
+    "accommodation": 19,
+    "alpha-2": "ME",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 17,
+    "food": 39,
+    "entertainment": 17,
+    "alcohol": 14.5,
+    "accommodation": 46,
+    "alpha-2": "ME",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 38,
+    "food": 94,
+    "entertainment": 39,
+    "alcohol": 30.5,
+    "accommodation": 102,
+    "alpha-2": "ME",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 3.2,
+    "food": 6.92,
+    "entertainment": 3.87,
+    "alcohol": 4,
+    "accommodation": 14,
+    "alpha-2": "MA",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 8.68,
+    "food": 17,
+    "entertainment": 10,
+    "alcohol": 10,
+    "accommodation": 38,
+    "alpha-2": "MA",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 25,
+    "food": 37,
+    "entertainment": 27,
+    "alcohol": 21.5,
+    "accommodation": 112,
+    "alpha-2": "MA",
+    "budgetType": 3
+  },
+  {
+    "accommodation": 0,
+    "alpha-2": "MZ",
+    "budgetType": 1
+  },
+  {
+    "accommodation": 0,
+    "alpha-2": "MZ",
+    "budgetType": 2
+  },
+  {
+    "accommodation": 0,
+    "alpha-2": "MZ",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 2.62,
+    "food": 3.73,
+    "entertainment": 57,
+    "accommodation": 4.8,
+    "alpha-2": "MM",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 3.38,
+    "food": 8.21,
+    "entertainment": 57,
+    "accommodation": 12,
+    "alpha-2": "MM",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 4.81,
+    "food": 14,
+    "entertainment": 57,
+    "accommodation": 29,
+    "alpha-2": "MM",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 250,
+    "food": 47,
+    "entertainment": 956,
+    "alcohol": 64,
+    "accommodation": 8.63,
+    "alpha-2": "NA",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 250,
+    "food": 121,
+    "entertainment": 2,
+    "alcohol": 160.5,
+    "accommodation": 20,
+    "alpha-2": "NA",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 250,
+    "food": 312,
+    "entertainment": 7,
+    "alcohol": 398,
+    "accommodation": 41,
+    "alpha-2": "NA",
+    "budgetType": 3
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "NR",
+    "budgetType": 1
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "NR",
+    "budgetType": 2
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "NR",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 4.15,
+    "food": 3.71,
+    "entertainment": 3.19,
+    "alcohol": 2.5,
+    "accommodation": 5.11,
+    "alpha-2": "NP",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 11,
+    "food": 8.8,
+    "entertainment": 8.34,
+    "alcohol": 6,
+    "accommodation": 14,
+    "alpha-2": "NP",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 32,
+    "food": 19,
+    "entertainment": 23,
+    "alcohol": 14.5,
+    "accommodation": 41,
+    "alpha-2": "NP",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 11,
+    "food": 20,
+    "entertainment": 12,
+    "alcohol": 10,
+    "accommodation": 40,
+    "alpha-2": "NL",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 29,
+    "food": 49,
+    "entertainment": 28,
+    "alcohol": 24,
+    "accommodation": 100,
+    "alpha-2": "NL",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 76,
+    "food": 112,
+    "entertainment": 66,
+    "alcohol": 53.5,
+    "accommodation": 247,
+    "alpha-2": "NL",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 14,
+    "food": 21,
+    "entertainment": 22,
+    "alcohol": 8.5,
+    "accommodation": 26,
+    "alpha-2": "NZ",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 34,
+    "food": 52,
+    "entertainment": 61,
+    "alcohol": 22,
+    "accommodation": 72,
+    "alpha-2": "NZ",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 84,
+    "food": 131,
+    "entertainment": 185,
+    "alcohol": 51.5,
+    "accommodation": 219,
+    "alpha-2": "NZ",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 131,
+    "food": 218,
+    "entertainment": 177,
+    "alcohol": 122,
+    "accommodation": 6.65,
+    "alpha-2": "NI",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 365,
+    "food": 541,
+    "entertainment": 457,
+    "alcohol": 318,
+    "accommodation": 17,
+    "alpha-2": "NI",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 1,
+    "food": 1,
+    "entertainment": 1,
+    "alcohol": 214,
+    "accommodation": 41,
+    "alpha-2": "NI",
+    "budgetType": 3
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "NE",
+    "budgetType": 1
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "NE",
+    "budgetType": 2
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "NE",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 0.28,
+    "food": 0.58,
+    "accommodation": 2.05,
+    "alpha-2": "NG",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 0.73,
+    "food": 1.3,
+    "accommodation": 4.44,
+    "alpha-2": "NG",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 1.98,
+    "food": 2.29,
+    "accommodation": 6.94,
+    "alpha-2": "NG",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 2.72,
+    "food": 11,
+    "entertainment": 3.77,
+    "alcohol": 6.5,
+    "accommodation": 27,
+    "alpha-2": "MK",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 6.2,
+    "food": 26,
+    "entertainment": 8.57,
+    "alcohol": 15.5,
+    "accommodation": 61,
+    "alpha-2": "MK",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 12,
+    "food": 56,
+    "entertainment": 16,
+    "alcohol": 29.5,
+    "accommodation": 101,
+    "alpha-2": "MK",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 7.32,
+    "food": 14,
+    "entertainment": 7.27,
+    "alcohol": 3.5,
+    "accommodation": 26,
+    "alpha-2": "NO",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 19,
+    "food": 33,
+    "entertainment": 17,
+    "alcohol": 8.5,
+    "accommodation": 62,
+    "alpha-2": "NO",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 51,
+    "food": 71,
+    "entertainment": 37,
+    "alcohol": 22,
+    "accommodation": 138,
+    "alpha-2": "NO",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 30,
+    "food": 37,
+    "entertainment": 20,
+    "alcohol": 4,
+    "accommodation": 28,
+    "alpha-2": "OM",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 68,
+    "food": 84,
+    "entertainment": 45,
+    "alcohol": 8.5,
+    "accommodation": 65,
+    "alpha-2": "OM",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 129,
+    "food": 161,
+    "entertainment": 86,
+    "alcohol": 16,
+    "accommodation": 127,
+    "alpha-2": "OM",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 3.25,
+    "food": 5.83,
+    "entertainment": 2.45,
+    "alcohol": 1.5,
+    "accommodation": 9.65,
+    "alpha-2": "PK",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 7.69,
+    "food": 13,
+    "entertainment": 5.62,
+    "alcohol": 4,
+    "accommodation": 24,
+    "alpha-2": "PK",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 16,
+    "food": 27,
+    "entertainment": 11,
+    "alcohol": 8,
+    "accommodation": 58,
+    "alpha-2": "PK",
+    "budgetType": 3
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "PW",
+    "budgetType": 1
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "PW",
+    "budgetType": 2
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "PW",
+    "budgetType": 3
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "PS",
+    "budgetType": 1
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "PS",
+    "budgetType": 2
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "PS",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 4.43,
+    "food": 9.27,
+    "entertainment": 11,
+    "alcohol": 5.5,
+    "accommodation": 14,
+    "alpha-2": "PA",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 11,
+    "food": 23,
+    "entertainment": 28,
+    "alcohol": 14,
+    "accommodation": 35,
+    "alpha-2": "PA",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 30,
+    "food": 52,
+    "entertainment": 82,
+    "alcohol": 38.5,
+    "accommodation": 84,
+    "alpha-2": "PA",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 70,
+    "food": 9.88,
+    "entertainment": 3.02,
+    "alcohol": 3.5,
+    "accommodation": 35,
+    "alpha-2": "PG",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 190,
+    "food": 23,
+    "entertainment": 6.9,
+    "alcohol": 8,
+    "accommodation": 80,
+    "alpha-2": "PG",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 560,
+    "food": 43,
+    "entertainment": 13,
+    "alcohol": 14.5,
+    "accommodation": 153,
+    "alpha-2": "PG",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 3.94,
+    "food": 7.31,
+    "entertainment": 7.19,
+    "alcohol": 4.5,
+    "accommodation": 9.66,
+    "alpha-2": "PY",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 8.88,
+    "food": 17,
+    "entertainment": 16,
+    "alcohol": 10.5,
+    "accommodation": 23,
+    "alpha-2": "PY",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 16,
+    "food": 37,
+    "entertainment": 31,
+    "alcohol": 19.5,
+    "accommodation": 46,
+    "alpha-2": "PY",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 2.71,
+    "food": 6.07,
+    "entertainment": 8.18,
+    "alcohol": 3.5,
+    "accommodation": 8.45,
+    "alpha-2": "PE",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 8.12,
+    "food": 16,
+    "entertainment": 22,
+    "alcohol": 9.5,
+    "accommodation": 24,
+    "alpha-2": "PE",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 28,
+    "food": 41,
+    "entertainment": 66,
+    "alcohol": 24.5,
+    "accommodation": 79,
+    "alpha-2": "PE",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 8.09,
+    "food": 6.4,
+    "entertainment": 5.85,
+    "alcohol": 4.5,
+    "accommodation": 9.72,
+    "alpha-2": "PH",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 22,
+    "food": 16,
+    "entertainment": 14,
+    "alcohol": 11.5,
+    "accommodation": 25,
+    "alpha-2": "PH",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 62,
+    "food": 37,
+    "entertainment": 35,
+    "alcohol": 28.5,
+    "accommodation": 69,
+    "alpha-2": "PH",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 2.48,
+    "food": 6.53,
+    "entertainment": 3.22,
+    "alcohol": 2.5,
+    "accommodation": 13,
+    "alpha-2": "PL",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 5.99,
+    "food": 16,
+    "entertainment": 9.2,
+    "alcohol": 6,
+    "accommodation": 35,
+    "alpha-2": "PL",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 13,
+    "food": 40,
+    "entertainment": 29,
+    "alcohol": 14.5,
+    "accommodation": 93,
+    "alpha-2": "PL",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 11,
+    "food": 18,
+    "entertainment": 9.28,
+    "alcohol": 7.5,
+    "accommodation": 27,
+    "alpha-2": "PT",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 29,
+    "food": 44,
+    "entertainment": 24,
+    "alcohol": 17.5,
+    "accommodation": 64,
+    "alpha-2": "PT",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 74,
+    "food": 98,
+    "entertainment": 60,
+    "alcohol": 40.5,
+    "accommodation": 138,
+    "alpha-2": "PT",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 10,
+    "food": 27,
+    "entertainment": 8.07,
+    "alcohol": 6.5,
+    "accommodation": 52,
+    "alpha-2": "QA",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 23,
+    "food": 61,
+    "entertainment": 18,
+    "alcohol": 14.5,
+    "accommodation": 119,
+    "alpha-2": "QA",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 44,
+    "food": 112,
+    "entertainment": 35,
+    "alcohol": 28,
+    "accommodation": 234,
+    "alpha-2": "QA",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 9.05,
+    "food": 12,
+    "entertainment": 3.98,
+    "alcohol": 3.5,
+    "accommodation": 13,
+    "alpha-2": "RO",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 21,
+    "food": 28,
+    "entertainment": 9.27,
+    "alcohol": 8.5,
+    "accommodation": 31,
+    "alpha-2": "RO",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 46,
+    "food": 65,
+    "entertainment": 19,
+    "alcohol": 17.5,
+    "accommodation": 68,
+    "alpha-2": "RO",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 1.79,
+    "food": 5.44,
+    "entertainment": 5.8,
+    "alcohol": 3.5,
+    "accommodation": 12,
+    "alpha-2": "RU",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 5.07,
+    "food": 14,
+    "entertainment": 15,
+    "alcohol": 8.5,
+    "accommodation": 30,
+    "alpha-2": "RU",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 16,
+    "food": 36,
+    "entertainment": 40,
+    "alcohol": 24.5,
+    "accommodation": 76,
+    "alpha-2": "RU",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 1.51,
+    "food": 2.21,
+    "alcohol": 2.5,
+    "accommodation": 14,
+    "alpha-2": "RW",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 4.07,
+    "food": 5.52,
+    "alcohol": 7.5,
+    "accommodation": 14,
+    "alpha-2": "RW",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 12,
+    "food": 14,
+    "alcohol": 20,
+    "accommodation": 14,
+    "alpha-2": "RW",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 50,
+    "food": 53,
+    "entertainment": 115,
+    "alcohol": 24,
+    "accommodation": 86,
+    "alpha-2": "KN",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 143,
+    "food": 129,
+    "entertainment": 271,
+    "alcohol": 56.5,
+    "accommodation": 208,
+    "alpha-2": "KN",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 459,
+    "food": 301,
+    "entertainment": 561,
+    "alcohol": 120.5,
+    "accommodation": 463,
+    "alpha-2": "KN",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 25,
+    "food": 60,
+    "entertainment": 56,
+    "alcohol": 20,
+    "accommodation": 56,
+    "alpha-2": "LC",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 58,
+    "food": 142,
+    "entertainment": 140,
+    "alcohol": 48,
+    "accommodation": 132,
+    "alpha-2": "LC",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 119,
+    "food": 310,
+    "entertainment": 348,
+    "alcohol": 106.5,
+    "accommodation": 282,
+    "alpha-2": "LC",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 34,
+    "food": 41,
+    "entertainment": 32,
+    "alcohol": 13.5,
+    "accommodation": 47,
+    "alpha-2": "VC",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 78,
+    "food": 94,
+    "entertainment": 72,
+    "alcohol": 31.5,
+    "accommodation": 107,
+    "alpha-2": "VC",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 142,
+    "food": 175,
+    "entertainment": 136,
+    "alcohol": 59.5,
+    "accommodation": 205,
+    "alpha-2": "VC",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 9.1,
+    "food": 11,
+    "entertainment": 11,
+    "accommodation": 15,
+    "alpha-2": "WS",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 9.1,
+    "food": 11,
+    "entertainment": 11,
+    "accommodation": 15,
+    "alpha-2": "WS",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 9.1,
+    "food": 11,
+    "entertainment": 11,
+    "accommodation": 15,
+    "alpha-2": "WS",
+    "budgetType": 3
+  },
+  {
+    "accommodation": 40,
+    "alpha-2": "SM",
+    "budgetType": 1
+  },
+  {
+    "accommodation": 54,
+    "alpha-2": "SM",
+    "budgetType": 2
+  },
+  {
+    "accommodation": 78,
+    "alpha-2": "SM",
+    "budgetType": 3
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "ST",
+    "budgetType": 1
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "ST",
+    "budgetType": 2
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "ST",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 13,
+    "food": 5.75,
+    "accommodation": 25,
+    "alpha-2": "SA",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 13,
+    "food": 13,
+    "accommodation": 25,
+    "alpha-2": "SA",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 13,
+    "food": 25,
+    "accommodation": 25,
+    "alpha-2": "SA",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 1.86,
+    "food": 7.3,
+    "entertainment": 5.42,
+    "alcohol": 4,
+    "accommodation": 12,
+    "alpha-2": "SN",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 5.17,
+    "food": 19,
+    "entertainment": 13,
+    "alcohol": 9.5,
+    "accommodation": 29,
+    "alpha-2": "SN",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 16,
+    "food": 49,
+    "entertainment": 27,
+    "alcohol": 20,
+    "accommodation": 58,
+    "alpha-2": "SN",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 2.31,
+    "food": 3.82,
+    "entertainment": 2.05,
+    "alcohol": 20.5,
+    "accommodation": 9.45,
+    "alpha-2": "RS",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 5.61,
+    "food": 9.29,
+    "entertainment": 4.52,
+    "alcohol": 20.5,
+    "accommodation": 25,
+    "alpha-2": "RS",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 13,
+    "food": 21,
+    "entertainment": 7.59,
+    "alcohol": 20.5,
+    "accommodation": 67,
+    "alpha-2": "RS",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 31,
+    "food": 23,
+    "entertainment": 18,
+    "alcohol": 14.5,
+    "accommodation": 38,
+    "alpha-2": "SC",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 70,
+    "food": 53,
+    "entertainment": 40,
+    "alcohol": 34,
+    "accommodation": 86,
+    "alpha-2": "SC",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 134,
+    "food": 102,
+    "entertainment": 77,
+    "alcohol": 65.5,
+    "accommodation": 162,
+    "alpha-2": "SC",
+    "budgetType": 3
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "SL",
+    "budgetType": 1
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "SL",
+    "budgetType": 2
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "SL",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 5.51,
+    "food": 15,
+    "entertainment": 17,
+    "alcohol": 15.5,
+    "accommodation": 37,
+    "alpha-2": "SG",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 14,
+    "food": 37,
+    "entertainment": 44,
+    "alcohol": 36.5,
+    "accommodation": 99,
+    "alpha-2": "SG",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 35,
+    "food": 93,
+    "entertainment": 113,
+    "alcohol": 83.5,
+    "accommodation": 278,
+    "alpha-2": "SG",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 9.99,
+    "food": 17,
+    "entertainment": 10,
+    "alcohol": 8.5,
+    "accommodation": 27,
+    "alpha-2": "SK",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 26,
+    "food": 41,
+    "entertainment": 24,
+    "alcohol": 21.5,
+    "accommodation": 63,
+    "alpha-2": "SK",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 70,
+    "food": 94,
+    "entertainment": 53,
+    "alcohol": 45.5,
+    "accommodation": 132,
+    "alpha-2": "SK",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 7.43,
+    "food": 11,
+    "entertainment": 5.58,
+    "alcohol": 5.5,
+    "accommodation": 24,
+    "alpha-2": "SI",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 18,
+    "food": 25,
+    "entertainment": 13,
+    "alcohol": 12.5,
+    "accommodation": 56,
+    "alpha-2": "SI",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 43,
+    "food": 52,
+    "entertainment": 28,
+    "alcohol": 26,
+    "accommodation": 118,
+    "alpha-2": "SI",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 81,
+    "food": 115,
+    "entertainment": 89,
+    "alcohol": 40,
+    "accommodation": 28,
+    "alpha-2": "SB",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 184,
+    "food": 263,
+    "entertainment": 204,
+    "alcohol": 91.5,
+    "accommodation": 64,
+    "alpha-2": "SB",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 352,
+    "food": 502,
+    "entertainment": 390,
+    "alcohol": 174.5,
+    "accommodation": 123,
+    "alpha-2": "SB",
+    "budgetType": 3
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "SO",
+    "budgetType": 1
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "SO",
+    "budgetType": 2
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "SO",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 6.24,
+    "food": 8.32,
+    "entertainment": 6.32,
+    "alcohol": 4,
+    "accommodation": 17,
+    "alpha-2": "ZA",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 15,
+    "food": 20,
+    "entertainment": 17,
+    "alcohol": 10,
+    "accommodation": 46,
+    "alpha-2": "ZA",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 35,
+    "food": 45,
+    "entertainment": 45,
+    "alcohol": 27.5,
+    "accommodation": 136,
+    "alpha-2": "ZA",
+    "budgetType": 3
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "SS",
+    "budgetType": 1
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "SS",
+    "budgetType": 2
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "SS",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 12,
+    "food": 17,
+    "entertainment": 12,
+    "alcohol": 7.5,
+    "accommodation": 29,
+    "alpha-2": "ES",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 29,
+    "food": 43,
+    "entertainment": 29,
+    "alcohol": 20,
+    "accommodation": 72,
+    "alpha-2": "ES",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 71,
+    "food": 106,
+    "entertainment": 68,
+    "alcohol": 55.5,
+    "accommodation": 179,
+    "alpha-2": "ES",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 1.74,
+    "food": 5.92,
+    "entertainment": 2.93,
+    "alcohol": 2,
+    "accommodation": 8.25,
+    "alpha-2": "LK",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 4.84,
+    "food": 16,
+    "entertainment": 8.05,
+    "alcohol": 5.5,
+    "accommodation": 24,
+    "alpha-2": "LK",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 12,
+    "food": 14,
+    "entertainment": 23,
+    "alcohol": 12.5,
+    "accommodation": 50,
+    "alpha-2": "LK",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 1.08,
+    "accommodation": null,
+    "alpha-2": "SD",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 1.08,
+    "accommodation": null,
+    "alpha-2": "SD",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 1.08,
+    "accommodation": null,
+    "alpha-2": "SD",
+    "budgetType": 3
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "SR",
+    "budgetType": 1
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "SR",
+    "budgetType": 2
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "SR",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 7.85,
+    "food": 14,
+    "entertainment": 9.34,
+    "alcohol": 10,
+    "accommodation": 29,
+    "alpha-2": "SE",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 19,
+    "food": 33,
+    "entertainment": 23,
+    "alcohol": 24.5,
+    "accommodation": 70,
+    "alpha-2": "SE",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 40,
+    "food": 73,
+    "entertainment": 51,
+    "alcohol": 55.5,
+    "accommodation": 157,
+    "alpha-2": "SE",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 16,
+    "food": 27,
+    "entertainment": 23,
+    "alcohol": 11.5,
+    "accommodation": 71,
+    "alpha-2": "CH",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 40,
+    "food": 65,
+    "entertainment": 58,
+    "alcohol": 27.5,
+    "accommodation": 174,
+    "alpha-2": "CH",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 95,
+    "food": 148,
+    "entertainment": 146,
+    "alcohol": 58,
+    "accommodation": 416,
+    "alpha-2": "CH",
+    "budgetType": 3
+  },
+  {
+    "food": 0.01,
+    "accommodation": 0.02,
+    "alpha-2": "SY",
+    "budgetType": 1
+  },
+  {
+    "food": 0.03,
+    "entertainment": 0.01,
+    "accommodation": 0.05,
+    "alpha-2": "SY",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 0.01,
+    "food": 0.05,
+    "entertainment": 0.02,
+    "accommodation": 0.08,
+    "alpha-2": "SY",
+    "budgetType": 3
+  },
+  {
+    "food": 1.79,
+    "entertainment": 1.04,
+    "accommodation": 6.79,
+    "alpha-2": "TJ",
+    "budgetType": 1
+  },
+  {
+    "food": 4.29,
+    "entertainment": 2.72,
+    "alcohol": 2,
+    "accommodation": 7.87,
+    "alpha-2": "TJ",
+    "budgetType": 2
+  },
+  {
+    "food": 9.5,
+    "entertainment": 7.32,
+    "alcohol": 3.5,
+    "accommodation": 9.91,
+    "alpha-2": "TJ",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 6.01,
+    "food": 9.6,
+    "entertainment": 16,
+    "alcohol": 4,
+    "accommodation": 18,
+    "alpha-2": "TZ",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 15,
+    "food": 24,
+    "entertainment": 43,
+    "alcohol": 10,
+    "accommodation": 50,
+    "alpha-2": "TZ",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 38,
+    "food": 62,
+    "entertainment": 116,
+    "alcohol": 24.5,
+    "accommodation": 147,
+    "alpha-2": "TZ",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 4.28,
+    "food": 6.65,
+    "entertainment": 6.91,
+    "alcohol": 3.5,
+    "accommodation": 13,
+    "alpha-2": "TH",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 12,
+    "food": 17,
+    "entertainment": 19,
+    "alcohol": 8.5,
+    "accommodation": 36,
+    "alpha-2": "TH",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 40,
+    "food": 44,
+    "entertainment": 55,
+    "alcohol": 22,
+    "accommodation": 102,
+    "alpha-2": "TH",
+    "budgetType": 3
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "TL",
+    "budgetType": 1
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "TL",
+    "budgetType": 2
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "TL",
+    "budgetType": 3
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "TG",
+    "budgetType": 1
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "TG",
+    "budgetType": 2
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "TG",
+    "budgetType": 3
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "TO",
+    "budgetType": 1
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "TO",
+    "budgetType": 2
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "TO",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 22,
+    "food": 23,
+    "entertainment": 19,
+    "alcohol": 10,
+    "accommodation": 33,
+    "alpha-2": "TT",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 50,
+    "food": 53,
+    "entertainment": 46,
+    "alcohol": 22.5,
+    "accommodation": 75,
+    "alpha-2": "TT",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 95,
+    "food": 105,
+    "entertainment": 100,
+    "alcohol": 44.5,
+    "accommodation": 135,
+    "alpha-2": "TT",
+    "budgetType": 3
+  },
+  {
+    "accommodation": 25,
+    "alpha-2": "TN",
+    "budgetType": 1
+  },
+  {
+    "accommodation": 25,
+    "alpha-2": "TN",
+    "budgetType": 2
+  },
+  {
+    "accommodation": 25,
+    "alpha-2": "TN",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 18,
+    "food": 14,
+    "entertainment": 20,
+    "alcohol": 6.5,
+    "accommodation": 25,
+    "alpha-2": "TR",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 50,
+    "food": 35,
+    "entertainment": 53,
+    "alcohol": 16,
+    "accommodation": 56,
+    "alpha-2": "TR",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 151,
+    "food": 89,
+    "entertainment": 151,
+    "alcohol": 39.5,
+    "accommodation": 108,
+    "alpha-2": "TR",
+    "budgetType": 3
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "TM",
+    "budgetType": 1
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "TM",
+    "budgetType": 2
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "TM",
+    "budgetType": 3
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "TV",
+    "budgetType": 1
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "TV",
+    "budgetType": 2
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "TV",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 8.55,
+    "food": 11,
+    "entertainment": 13,
+    "alcohol": 6,
+    "accommodation": 19,
+    "alpha-2": "UG",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 20,
+    "food": 26,
+    "entertainment": 30,
+    "alcohol": 13.5,
+    "accommodation": 44,
+    "alpha-2": "UG",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 37,
+    "food": 63,
+    "entertainment": 63,
+    "alcohol": 25.5,
+    "accommodation": 90,
+    "alpha-2": "UG",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 0.35,
+    "food": 2.38,
+    "entertainment": 0.8,
+    "alcohol": 2.5,
+    "accommodation": 6.76,
+    "alpha-2": "UA",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 0.96,
+    "food": 6.03,
+    "entertainment": 1.91,
+    "alcohol": 6.5,
+    "accommodation": 16,
+    "alpha-2": "UA",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 2.84,
+    "food": 15,
+    "entertainment": 4.1,
+    "alcohol": 18,
+    "accommodation": 38,
+    "alpha-2": "UA",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 5.95,
+    "food": 21,
+    "entertainment": 11,
+    "alcohol": 8,
+    "accommodation": 61,
+    "alpha-2": "AE",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 16,
+    "food": 52,
+    "entertainment": 29,
+    "alcohol": 19.5,
+    "accommodation": 160,
+    "alpha-2": "AE",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 49,
+    "food": 128,
+    "entertainment": 87,
+    "alcohol": 41.5,
+    "accommodation": 433,
+    "alpha-2": "AE",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 14,
+    "food": 19,
+    "entertainment": 13,
+    "alcohol": 6.5,
+    "accommodation": 38,
+    "alpha-2": "GB",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 37,
+    "food": 47,
+    "entertainment": 35,
+    "alcohol": 16.5,
+    "accommodation": 96,
+    "alpha-2": "GB",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 96,
+    "food": 116,
+    "entertainment": 94,
+    "alcohol": 40.5,
+    "accommodation": 244,
+    "alpha-2": "GB",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 18,
+    "food": 23,
+    "entertainment": 18,
+    "alcohol": 10.5,
+    "accommodation": 49,
+    "alpha-2": "US",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 46,
+    "food": 58,
+    "entertainment": 55,
+    "alcohol": 26.5,
+    "accommodation": 130,
+    "alpha-2": "US",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 121,
+    "food": 153,
+    "entertainment": 190,
+    "alcohol": 69.5,
+    "accommodation": 353,
+    "alpha-2": "US",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 9.91,
+    "food": 10,
+    "entertainment": 6.28,
+    "alcohol": 4,
+    "accommodation": 15,
+    "alpha-2": "UY",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 22,
+    "food": 24,
+    "entertainment": 15,
+    "alcohol": 9.5,
+    "accommodation": 35,
+    "alpha-2": "UY",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 42,
+    "food": 49,
+    "entertainment": 37,
+    "alcohol": 20,
+    "accommodation": 78,
+    "alpha-2": "UY",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 0.08,
+    "food": 1.02,
+    "entertainment": 0.3,
+    "accommodation": 1.75,
+    "alpha-2": "UZ",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 0.2,
+    "food": 2.36,
+    "entertainment": 0.78,
+    "alcohol": 2,
+    "accommodation": 3.74,
+    "alpha-2": "UZ",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 0.44,
+    "food": 4.67,
+    "entertainment": 2.07,
+    "alcohol": 6,
+    "accommodation": 5.54,
+    "alpha-2": "UZ",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 11,
+    "food": 9.34,
+    "entertainment": 6.08,
+    "alcohol": 4.5,
+    "accommodation": 177,
+    "alpha-2": "VU",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 25,
+    "food": 22,
+    "entertainment": 14,
+    "alcohol": 10.5,
+    "accommodation": 408,
+    "alpha-2": "VU",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 53,
+    "food": 44,
+    "entertainment": 27,
+    "alcohol": 20,
+    "accommodation": 810,
+    "alpha-2": "VU",
+    "budgetType": 3
+  },
+  {
+    "accommodation": 0,
+    "alpha-2": "VE",
+    "budgetType": 1
+  },
+  {
+    "accommodation": 0,
+    "alpha-2": "VE",
+    "budgetType": 2
+  },
+  {
+    "accommodation": 0,
+    "alpha-2": "VE",
+    "budgetType": 3
+  },
+  {
+    "localTransportation": 4.51,
+    "food": 5.66,
+    "entertainment": 5.15,
+    "alcohol": 3.5,
+    "accommodation": 9.77,
+    "alpha-2": "VN",
+    "budgetType": 1
+  },
+  {
+    "localTransportation": 12,
+    "food": 14,
+    "entertainment": 14,
+    "alcohol": 8,
+    "accommodation": 27,
+    "alpha-2": "VN",
+    "budgetType": 2
+  },
+  {
+    "localTransportation": 36,
+    "food": 34,
+    "entertainment": 37,
+    "alcohol": 20,
+    "accommodation": 84,
+    "alpha-2": "VN",
+    "budgetType": 3
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "YE",
+    "budgetType": 1
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "YE",
+    "budgetType": 2
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "YE",
+    "budgetType": 3
+  },
+  {
+    "food": 6.16,
+    "entertainment": 25,
+    "alcohol": 8.5,
+    "accommodation": 30,
+    "alpha-2": "ZM",
+    "budgetType": 1
+  },
+  {
+    "food": 14,
+    "entertainment": 69,
+    "alcohol": 22,
+    "accommodation": 120,
+    "alpha-2": "ZM",
+    "budgetType": 2
+  },
+  {
+    "food": 30,
+    "entertainment": 214,
+    "alcohol": 52.5,
+    "accommodation": 230,
+    "alpha-2": "ZM",
+    "budgetType": 3
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "ZW",
+    "budgetType": 1
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "ZW",
+    "budgetType": 2
+  },
+  {
+    "accommodation": null,
+    "alpha-2": "ZW",
+    "budgetType": 3
+  }
+]
