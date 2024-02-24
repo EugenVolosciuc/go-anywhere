@@ -6,6 +6,7 @@ import { saveTimeLastRan } from "scripts/libs/save-time-last-ran";
 import { CSVCountry, CountryExpenses, CountryIndexData } from "scripts/types";
 import { CountryModel } from "src/models/country";
 import bestMonthsToVisit from "./best-months-to-visit";
+import { Location } from "src/types";
 
 console.time("total");
 
@@ -28,6 +29,14 @@ const countryIndexesFile = Bun.file(
 const countryIndexes = JSON.parse(
   await countryIndexesFile.text()
 ) as CountryIndexData[];
+
+const coordinatesFile = Bun.file(
+  path.join(import.meta.dir, "central-coordinates.json")
+);
+const coordinates = JSON.parse(await coordinatesFile.text()) as Record<
+  string,
+  Location
+>;
 
 const countryTravelExpensesFile = Bun.file(
   path.join(
@@ -63,15 +72,14 @@ for (let i = 0; i < countryTravelExpenses.length / 3; i++) {
   const budgetExpenses = countryTravelExpenses[i * 3];
   const midRangeExpenses = countryTravelExpenses[i * 3 + 1];
   const luxuryExpenses = countryTravelExpenses[i * 3 + 2];
+  const alpha2 = budgetExpenses["alpha-2"];
 
   const countryInfo = countriesData.find(
-    (country) => country["alpha-2"] === budgetExpenses["alpha-2"]
+    (country) => country["alpha-2"] === alpha2
   );
 
   if (!countryInfo) {
-    console.warn(
-      `Could not find country data for ${budgetExpenses["alpha-2"]}`
-    );
+    console.warn(`Could not find country data for ${alpha2}`);
     continue;
   }
 
@@ -86,6 +94,8 @@ for (let i = 0; i < countryTravelExpenses.length / 3; i++) {
     indexes = restOfIndexData;
   }
 
+  const countryCoordinates = coordinates[alpha2];
+
   const country = new CountryModel({
     name: countryInfo.name,
     alpha2: countryInfo["alpha-2"],
@@ -98,6 +108,10 @@ for (let i = 0; i < countryTravelExpenses.length / 3; i++) {
     intermediateRegionCode: countryInfo["intermediate-region-code"],
     subRegion: countryInfo["sub-region"],
     subRegionCode: countryInfo["sub-region-code"],
+    location: {
+      type: "Point",
+      coordinates: [countryCoordinates.long, countryCoordinates.lat],
+    },
     indexes,
     travelExpenses: {
       "1": gotNoExpensesInfoForCountry(budgetExpenses)

@@ -7,6 +7,7 @@ import { UNCountries } from "scripts/import-countries/un-countries";
 import { sleep } from "bun";
 import { getDollarAmount } from "scripts/libs/get-dollar-amount";
 import { CSVCountry, CountryExpenses, EXPENSE_TYPE } from "scripts/types";
+import { BUDGET_TYPES } from "src/constants";
 
 // TODO: Delete this after modifying the accommodation part of the script
 throw new Error(
@@ -18,7 +19,6 @@ console.time("total");
 // NOTE: all expenses are for a single person, in USD
 
 export const DATA_SOURCE = "https://www.budgetyourtrip.com/budgetreportadv.php";
-const BUDGET_TYPES = [1, 2, 3]; // budget, mid-range, luxury
 
 const EXPENSE_TYPE_MAP: Omit<
   Record<EXPENSE_TYPE, number>,

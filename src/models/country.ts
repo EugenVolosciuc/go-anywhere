@@ -1,5 +1,7 @@
 import mongoose, { InferSchemaType } from "mongoose";
 
+import { pointSchema } from "./point";
+
 const countryIndexesSchema = new mongoose.Schema({
   rank: { type: String, required: true },
   costOfLivingIndex: { type: String, required: true },
@@ -24,6 +26,11 @@ const countrySchema = new mongoose.Schema({
   alpha3: { type: String, required: true },
   countryCode: { type: String, required: true },
   "iso3166-2": { type: String, required: true },
+  location: {
+    type: pointSchema,
+    required: true,
+    index: "2dsphere",
+  },
   region: { type: String, required: true },
   subRegion: { type: String, required: false },
   intermediateRegion: { type: String, required: false },
