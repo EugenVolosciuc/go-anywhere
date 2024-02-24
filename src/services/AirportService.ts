@@ -1,7 +1,8 @@
 import { AirportModel } from "src/models/airport";
+import { Location } from "src/types";
 
 export class AirportService {
-  static async findClosestAirport([lat, long]: [number, number]) {
+  static async findClosestAirport({ lat, long }: Location) {
     return await AirportModel.findOne({
       location: {
         $near: {

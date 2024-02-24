@@ -1,5 +1,6 @@
 import { Elysia, t } from "elysia";
 import { AirportService } from "src/services/AirportService";
+import { PlacesService } from "src/services/PlacesService";
 
 enum Currency {
   USD = "USD",
@@ -9,10 +10,18 @@ export const TravelController = (app: Elysia) => {
   app.get(
     "/travel",
     async ({ query }) => {
-      const closestAirport = await AirportService.findClosestAirport([
-        query.location.lat,
-        query.location.long,
-      ]);
+      const closestAirport = await AirportService.findClosestAirport({
+        lat: query.location.lat,
+        long: query.location.long,
+      });
+
+      const nearestCities = await PlacesService.findPlaces({
+        filters: {
+          location: { lat: query.location.lat, long: query.location.long },
+          minPopulation: 10000,
+          radius: 100,
+        },
+      });
 
       // What needs to be done here?
       // In the end, we need to return a list of trips
@@ -28,7 +37,10 @@ export const TravelController = (app: Elysia) => {
       //    - Food and dining costs - Same as Average daily expenses for travelers
       // - Split the period into multiple locations inside the country
 
-      return "TRAVEL! <3";
+      return {
+        closestAirport,
+        nearestCities,
+      };
     },
     {
       query: t.Object({
