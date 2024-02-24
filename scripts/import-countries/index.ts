@@ -4,7 +4,8 @@ import path from "node:path";
 
 import { saveTimeLastRan } from "scripts/libs/save-time-last-ran";
 import { CSVCountry, CountryExpenses, CountryIndexData } from "scripts/types";
-import { Country, CountryModel } from "src/models/country";
+import { CountryModel } from "src/models/country";
+import bestMonthsToVisit from "./best-months-to-visit";
 
 console.time("total");
 
@@ -109,6 +110,7 @@ for (let i = 0; i < countryTravelExpenses.length / 3; i++) {
         ? undefined
         : luxuryExpenses,
     },
+    bestMonthsToVisit: bestMonthsToVisit[countryInfo["alpha-2"]],
   });
 
   countries.push(country);

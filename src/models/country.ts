@@ -45,6 +45,10 @@ const countrySchema = new mongoose.Schema({
       required: false,
     },
   },
+  bestMonthsToVisit: {
+    type: [Number],
+    required: true,
+  },
 });
 
 export type Country = InferSchemaType<typeof countrySchema>;
