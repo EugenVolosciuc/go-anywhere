@@ -69,7 +69,8 @@ enum DistanceUnit {
   "MI" = "MI",
 }
 
-const excludedCountryIds = ["IR", "KP"]; // Iran, North Korea
+// Iran, North Korea, Syria, Cuba
+const excludedCountryIds = ["IR", "KP", "SY", "CU"];
 
 const defaultFilters: Filters = {
   distanceUnit: DistanceUnit.KM,
