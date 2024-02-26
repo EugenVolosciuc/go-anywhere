@@ -1,6 +1,8 @@
 import { Elysia, t } from "elysia";
+import { CountryModel } from "src/models/country";
 import { AirportService } from "src/services/AirportService";
 import { PlacesService } from "src/services/PlacesService";
+import { CountryService } from "src/services/CountryService";
 
 enum Currency {
   USD = "USD",
@@ -10,6 +12,14 @@ export const TravelController = (app: Elysia) => {
   app.get(
     "/travel",
     async ({ query }) => {
+      const romania = await CountryModel.findOne({ alpha2: "RO" });
+
+      if (!romania) return "Could not find Romania";
+
+      const bestMonthsScore = CountryService.calculateTravelPeriodScore(
+        query.period,
+        romania.bestMonthsToVisit
+      );
       // const closestAirport = await AirportService.findClosestAirport({
       //   lat: query.location.lat,
       //   long: query.location.long,
@@ -40,6 +50,7 @@ export const TravelController = (app: Elysia) => {
       // const countries = new CountryService().getRecommendedCountries(query.location, )
 
       return {
+        bestMonthsScore,
         // closestAirport,
         // nearestCities,
       };

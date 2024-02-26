@@ -8,6 +8,10 @@ const DATA_SOURCE = "https://www.travelsafe-abroad.com/countries/";
 const response = await fetch(DATA_SOURCE);
 const html = await response.text();
 
+// TODO: Need to update this script. The indexes are more on the bad side of things,
+// might want to make an average between the "oficial" index and the user sentiment,
+// this requires going through each country's page
+
 const $ = cheerio.load(html);
 
 const table = $(".sortable.index-table");

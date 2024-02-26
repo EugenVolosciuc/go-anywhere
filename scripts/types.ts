@@ -34,4 +34,5 @@ export type CountryIndexData = {
   groceriesIndex: string;
   restaurantPriceIndex: string;
   localPurchasingPowerIndex: string;
+  safetyIndex?: string;
 };
