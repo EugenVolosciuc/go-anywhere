@@ -9,6 +9,7 @@
     "script:import-countries": "bun run scripts/import-countries/index.ts",
     "script:import-airports": "bun run scripts/import-airports/index.ts",
     "script:scrape-country-indexes": "bun run scripts/scrape-country-indexes/index.ts",
+    "script:scrape-country-safety-indexes": "bun run scripts/scrape-country-safety-indexes/index.ts",
     "script:scrape-country-expenses": "bun run scripts/scrape-country-expenses/index.ts",
     "script:add-budget-type": "bun run scripts/scrape-country-expenses/add-budget-type.ts"
   },

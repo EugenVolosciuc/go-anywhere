@@ -1,0 +1,587 @@
+[
+  {
+    "Afghanistan": 14
+  },
+  {
+    "Albania": 75
+  },
+  {
+    "Algeria": 44
+  },
+  {
+    "Angola": 48
+  },
+  {
+    "Anguilla": 70
+  },
+  {
+    "Argentina": 70
+  },
+  {
+    "Armenia": 60
+  },
+  {
+    "Aruba": 90
+  },
+  {
+    "Australia": 86
+  },
+  {
+    "Austria": 92
+  },
+  {
+    "Azerbaijan": 51
+  },
+  {
+    "Bahrain": 46
+  },
+  {
+    "Bangladesh": 49
+  },
+  {
+    "Barbados": 80
+  },
+  {
+    "Belarus": 77
+  },
+  {
+    "Belgium": 70
+  },
+  {
+    "Belize": 43
+  },
+  {
+    "Benin": 45
+  },
+  {
+    "Bermuda": 90
+  },
+  {
+    "Bhutan": 70
+  },
+  {
+    "Bolivia": 57
+  },
+  {
+    "Bonaire": 80
+  },
+  {
+    "Bosnia and Herzegovina": 48
+  },
+  {
+    "Botswana": 77
+  },
+  {
+    "Brazil": 52
+  },
+  {
+    "British Virgin Islands": 89
+  },
+  {
+    "Brunei": 80
+  },
+  {
+    "Bulgaria": 80
+  },
+  {
+    "Burkina Faso": 41
+  },
+  {
+    "Burundi": 30
+  },
+  {
+    "Cambodia": 68
+  },
+  {
+    "Cameroon": 36
+  },
+  {
+    "Canada": 88
+  },
+  {
+    "Cayman Islands": 50
+  },
+  {
+    "Central African Republic": 32
+  },
+  {
+    "Chad": 32
+  },
+  {
+    "Chile": 79
+  },
+  {
+    "China": 66
+  },
+  {
+    "Colombia": 42
+  },
+  {
+    "Costa Rica": 64
+  },
+  {
+    "Croatia": 83
+  },
+  {
+    "Cuba": 47
+  },
+  {
+    "Curacao": 80
+  },
+  {
+    "Cyprus": 75
+  },
+  {
+    "Czech Republic": 88
+  },
+  {
+    "Democratic Republic of the Congo": 21
+  },
+  {
+    "Denmark": 94
+  },
+  {
+    "Djibouti": 38
+  },
+  {
+    "Dominica": 80
+  },
+  {
+    "Dominican Republic": 54
+  },
+  {
+    "Ecuador": 55
+  },
+  {
+    "Egypt": 38
+  },
+  {
+    "El Salvador": 50
+  },
+  {
+    "Equatorial Guinea": 68
+  },
+  {
+    "Eritrea": 32
+  },
+  {
+    "Estonia": 82
+  },
+  {
+    "Eswatini": 47
+  },
+  {
+    "Ethiopia": 41
+  },
+  {
+    "Fiji": 70
+  },
+  {
+    "Finland": 86
+  },
+  {
+    "France": 64
+  },
+  {
+    "French Polynesia": 92
+  },
+  {
+    "Gabon": 45
+  },
+  {
+    "Gambia": 69
+  },
+  {
+    "Georgia": 63
+  },
+  {
+    "Germany": 85
+  },
+  {
+    "Ghana": 73
+  },
+  {
+    "Gibraltar": 90
+  },
+  {
+    "Greece": 73
+  },
+  {
+    "Greenland": 80
+  },
+  {
+    "Grenada": 80
+  },
+  {
+    "Guatemala": 53
+  },
+  {
+    "Guinea": 39
+  },
+  {
+    "Guinea-Bissau": 36
+  },
+  {
+    "Guyana": 43
+  },
+  {
+    "Haiti": 42
+  },
+  {
+    "Honduras": 49
+  },
+  {
+    "Hungary": 83
+  },
+  {
+    "Iceland": 95
+  },
+  {
+    "India": 47
+  },
+  {
+    "Indonesia": 58
+  },
+  {
+    "Iran": 35
+  },
+  {
+    "Iraq": 14
+  },
+  {
+    "Ireland": 83
+  },
+  {
+    "Israel": 60
+  },
+  {
+    "Italy": 77
+  },
+  {
+    "Ivory Coast": 37
+  },
+  {
+    "Jamaica": 55
+  },
+  {
+    "Japan": 83
+  },
+  {
+    "Jordan": 53
+  },
+  {
+    "Kazakhstan": 72
+  },
+  {
+    "Kenya": 45
+  },
+  {
+    "Kosovo": 44
+  },
+  {
+    "Kuwait": 66
+  },
+  {
+    "Kyrgyz Republic": 38
+  },
+  {
+    "Laos": 51
+  },
+  {
+    "Latvia": 80
+  },
+  {
+    "Lebanon": 35
+  },
+  {
+    "Lesotho": 47
+  },
+  {
+    "Liberia": 45
+  },
+  {
+    "Libya": 21
+  },
+  {
+    "Liechtenstein": 89
+  },
+  {
+    "Lithuania": 79
+  },
+  {
+    "Luxembourg": 74
+  },
+  {
+    "Macedonia": 55
+  },
+  {
+    "Madagascar": 49
+  },
+  {
+    "Malawi": 53
+  },
+  {
+    "Malaysia": 69
+  },
+  {
+    "Maldives": 46
+  },
+  {
+    "Mali": 31
+  },
+  {
+    "Malta": 78
+  },
+  {
+    "Mauritania": 35
+  },
+  {
+    "Mauritius": 80
+  },
+  {
+    "Mexico": 65
+  },
+  {
+    "Moldova": 67
+  },
+  {
+    "Monaco": 88
+  },
+  {
+    "Mongolia": 71
+  },
+  {
+    "Montenegro": 70
+  },
+  {
+    "Montserrat": 70
+  },
+  {
+    "Morocco": 54
+  },
+  {
+    "Mozambique": 46
+  },
+  {
+    "Myanmar": 39
+  },
+  {
+    "Namibia": 71
+  },
+  {
+    "Nauru": 80
+  },
+  {
+    "Nepal": 59
+  },
+  {
+    "Netherlands": 75
+  },
+  {
+    "New Zealand": 90
+  },
+  {
+    "Nicaragua": 46
+  },
+  {
+    "Niger": 37
+  },
+  {
+    "Nigeria": 33
+  },
+  {
+    "North Korea": 21
+  },
+  {
+    "Norway": 85
+  },
+  {
+    "Oman": 76
+  },
+  {
+    "Pakistan": 26
+  },
+  {
+    "Palau": 80
+  },
+  {
+    "Panama": 65
+  },
+  {
+    "Papua New Guinea": 47
+  },
+  {
+    "Paraguay": 45
+  },
+  {
+    "Peru": 50
+  },
+  {
+    "Philippines": 47
+  },
+  {
+    "Poland": 84
+  },
+  {
+    "Portugal": 57
+  },
+  {
+    "Puerto Rico": 34
+  },
+  {
+    "Qatar": 84
+  },
+  {
+    "Republic of the Congo": 54
+  },
+  {
+    "Romania": 80
+  },
+  {
+    "Russia": 34
+  },
+  {
+    "Rwanda": 37
+  },
+  {
+    "Saint Kitts and Nevis": 70
+  },
+  {
+    "Saint Lucia": 70
+  },
+  {
+    "Samoa": 70
+  },
+  {
+    "Saudi Arabia": 46
+  },
+  {
+    "Senegal": 45
+  },
+  {
+    "Serbia": 77
+  },
+  {
+    "Seychelles": 80
+  },
+  {
+    "Sierra Leone": 50
+  },
+  {
+    "Singapore": 90
+  },
+  {
+    "Slovakia": 80
+  },
+  {
+    "Slovenia": 87
+  },
+  {
+    "Somalia": 16
+  },
+  {
+    "South Africa": 48
+  },
+  {
+    "South Korea": 82
+  },
+  {
+    "South Sudan": 10
+  },
+  {
+    "Spain": 83
+  },
+  {
+    "Sri Lanka": 60
+  },
+  {
+    "Sudan": 55
+  },
+  {
+    "Suriname": 62
+  },
+  {
+    "Sweden": 83
+  },
+  {
+    "Switzerland": 89
+  },
+  {
+    "Syria": 10
+  },
+  {
+    "Taiwan": 54
+  },
+  {
+    "Tajikistan": 38
+  },
+  {
+    "Tanzania": 59
+  },
+  {
+    "Thailand": 48
+  },
+  {
+    "The Bahamas": 49
+  },
+  {
+    "Timor-Leste": 48
+  },
+  {
+    "Togo": 69
+  },
+  {
+    "Tonga": 70
+  },
+  {
+    "Trinidad and Tobago": 43
+  },
+  {
+    "Tunisia": 53
+  },
+  {
+    "Turkey": 45
+  },
+  {
+    "Turkmenistan": 42
+  },
+  {
+    "Uganda": 49
+  },
+  {
+    "Ukraine": 30
+  },
+  {
+    "United Arab Emirates": 79
+  },
+  {
+    "United Kingdom": 77
+  },
+  {
+    "United States": 68
+  },
+  {
+    "Uruguay": 77
+  },
+  {
+    "Uzbekistan": 40
+  },
+  {
+    "Vanuatu": 70
+  },
+  {
+    "Venezuela": 33
+  },
+  {
+    "Vietnam": 73
+  },
+  {
+    "Yemen": 10
+  },
+  {
+    "Zambia": 52
+  },
+  {
+    "Zimbabwe": 53
+  }
+]
