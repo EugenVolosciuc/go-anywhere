@@ -1,7 +1,8 @@
 import { Location } from "src/types";
 
 export class GeospatialService {
-  static EARTH_RADIUS_KM = 6371;
+  static EARTH_RADIUS_KM = 6371 as const;
+  static LONGEST_DISTANCE_ON_EARTH = 20_010 as const;
   /**
    * The Earth is not flat. Use Haversine formula for accurate geospatial distance calculation.
    */
@@ -27,4 +28,8 @@ export class GeospatialService {
 
     return distance;
   };
+
+  static dbCoordinatesToLocation([long, lat]: [number, number]): Location {
+    return { lat, long };
+  }
 }

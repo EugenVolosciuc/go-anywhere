@@ -1,11 +1,14 @@
 import dayjs from "dayjs";
+import { Country } from "src/models/country";
 
-import { TravelPeriod } from "src/types";
+import { Location, TravelPeriod } from "src/types";
+import { GeospatialService } from "./GeospatialService";
+import { StatisticsService } from "./StatisticsService";
 
 export class CountryService {
   static calculateTravelPeriodScore(
-    travelPeriod: TravelPeriod,
-    bestMonths: number[]
+    country: Country,
+    travelPeriod: TravelPeriod
   ): number {
     const periodStart = dayjs(travelPeriod.start);
     const periodEnd = dayjs(travelPeriod.end);
@@ -18,7 +21,7 @@ export class CountryService {
       const currentDay = periodStart.add(i, "day");
       const currentMonth = currentDay.month() + 1; // dayjs months are 0-indexed
 
-      if (bestMonths.includes(currentMonth)) {
+      if (country.bestMonthsToVisit.includes(currentMonth)) {
         intersectionDays++;
       }
     }
@@ -27,7 +30,28 @@ export class CountryService {
     return intersectionScore;
   }
 
-  static calculateProximityScore() {}
+  static calculateProximityScore(country: Country, startingPoint: Location) {
+    const countryCentralLocation = GeospatialService.dbCoordinatesToLocation(
+      country.location.coordinates as [number, number]
+    );
+
+    console.log("countryCentralLocation", countryCentralLocation);
+
+    const distance = GeospatialService.calculateHaversineDistance(
+      startingPoint,
+      countryCentralLocation
+    );
+
+    console.log("distance", distance);
+
+    const normalizedScore = StatisticsService.minMaxNormalization(
+      distance,
+      0,
+      GeospatialService.LONGEST_DISTANCE_ON_EARTH
+    );
+
+    return 1 - normalizedScore;
+  }
   // calculateProximityScore
   // calculateSafetyScore
   // calculateAffordabilityScore - NOT NEEDED. Will replace with the following logic:
