@@ -1,587 +1,491 @@
 [
   {
-    "Afghanistan": 14
+    "Iceland": "1.124"
   },
   {
-    "Albania": 75
+    "Denmark": "1.31"
   },
   {
-    "Algeria": 44
+    "Ireland": "1.312"
   },
   {
-    "Angola": 48
+    "New Zealand": "1.313"
   },
   {
-    "Anguilla": 70
+    "Austria": "1.316"
   },
   {
-    "Argentina": 70
+    "Singapore": "1.332"
   },
   {
-    "Armenia": 60
+    "Portugal": "1.333"
   },
   {
-    "Aruba": 90
+    "Slovenia": "1.334"
   },
   {
-    "Australia": 86
+    "Japan": "1.336"
   },
   {
-    "Austria": 92
+    "Switzerland": "1.339"
   },
   {
-    "Azerbaijan": 51
+    "Canada": "1.35"
   },
   {
-    "Bahrain": 46
+    "Czech Republic": "1.379"
   },
   {
-    "Bangladesh": 49
+    "Finland": "1.399"
   },
   {
-    "Barbados": 80
+    "Croatia": "1.45"
   },
   {
-    "Belarus": 77
+    "Germany": "1.456"
   },
   {
-    "Belgium": 70
+    "Netherlands": "1.49"
   },
   {
-    "Belize": 43
+    "Bhutan": "1.496"
   },
   {
-    "Benin": 45
+    "Hungary": "1.508"
   },
   {
-    "Bermuda": 90
+    "Malaysia": "1.513"
   },
   {
-    "Bhutan": 70
+    "Belgium": "1.523"
   },
   {
-    "Bolivia": 57
+    "Qatar": "1.524"
   },
   {
-    "Bonaire": 80
+    "Australia": "1.525"
   },
   {
-    "Bosnia and Herzegovina": 48
+    "Mauritius": "1.546"
   },
   {
-    "Botswana": 77
+    "Norway": "1.55"
   },
   {
-    "Brazil": 52
+    "Estonia": "1.563"
   },
   {
-    "British Virgin Islands": 89
+    "Slovakia": "1.578"
   },
   {
-    "Brunei": 80
+    "Latvia": "1.582"
   },
   {
-    "Bulgaria": 80
+    "Sweden": "1.625"
   },
   {
-    "Burkina Faso": 41
+    "Poland": "1.634"
   },
   {
-    "Burundi": 30
+    "Bulgaria": "1.643"
   },
   {
-    "Cambodia": 68
+    "Romania": "1.649"
   },
   {
-    "Cameroon": 36
+    "Spain": "1.649"
   },
   {
-    "Canada": 88
+    "Taiwan": "1.649"
   },
   {
-    "Cayman Islands": 50
+    "Italy": "1.662"
   },
   {
-    "Central African Republic": 32
+    "Kuwait": "1.669"
   },
   {
-    "Chad": 32
+    "Lithuania": "1.671"
   },
   {
-    "Chile": 79
+    "United Kingdom": "1.693"
   },
   {
-    "China": 66
+    "North Macedonia": "1.713"
   },
   {
-    "Colombia": 42
+    "Costa Rica": "1.731"
   },
   {
-    "Costa Rica": 64
+    "Albania": "1.745"
   },
   {
-    "Croatia": 83
+    "Vietnam": "1.745"
   },
   {
-    "Cuba": 47
+    "Botswana": "1.762"
   },
   {
-    "Curacao": 80
+    "South Korea": "1.763"
   },
   {
-    "Cyprus": 75
+    "Mongolia": "1.765"
   },
   {
-    "Czech Republic": 88
+    "Montenegro": "1.772"
   },
   {
-    "Democratic Republic of the Congo": 21
+    "Laos": "1.779"
   },
   {
-    "Denmark": 94
+    "Sierra Leone": "1.792"
   },
   {
-    "Djibouti": 38
+    "Oman": "1.794"
   },
   {
-    "Dominica": 80
+    "Timor-Leste": "1.796"
   },
   {
-    "Dominican Republic": 54
+    "Uruguay": "1.798"
   },
   {
-    "Ecuador": 55
+    "Ghana": "1.799"
   },
   {
-    "Egypt": 38
+    "Senegal": "1.827"
   },
   {
-    "El Salvador": 50
+    "Indonesia": "1.829"
   },
   {
-    "Equatorial Guinea": 68
+    "Argentina": "1.837"
   },
   {
-    "Eritrea": 32
+    "Madagascar": "1.846"
   },
   {
-    "Estonia": 82
+    "Namibia": "1.859"
   },
   {
-    "Eswatini": 47
+    "Moldova": "1.873"
   },
   {
-    "Ethiopia": 41
+    "Chile": "1.874"
   },
   {
-    "Fiji": 70
+    "Gambia": "1.888"
   },
   {
-    "Finland": 86
+    "Greece": "1.89"
   },
   {
-    "France": 64
+    "Bosnia and Herzegovina": "1.892"
   },
   {
-    "French Polynesia": 92
+    "Jordan": "1.895"
   },
   {
-    "Gabon": 45
+    "Zambia": "1.898"
   },
   {
-    "Gambia": 69
+    "Cyprus": "1.904"
   },
   {
-    "Georgia": 63
+    "Serbia": "1.921"
   },
   {
-    "Germany": 85
+    "Armenia": "1.929"
   },
   {
-    "Ghana": 73
+    "France": "1.939"
   },
   {
-    "Gibraltar": 90
+    "Panama": "1.942"
   },
   {
-    "Greece": 73
+    "Paraguay": "1.942"
   },
   {
-    "Greenland": 80
+    "Trinidad and Tobago": "1.946"
   },
   {
-    "Grenada": 80
+    "Kosovo": "1.946"
   },
   {
-    "Guatemala": 53
+    "Liberia": "1.946"
   },
   {
-    "Guinea": 39
+    "Cambodia": "1.947"
   },
   {
-    "Guinea-Bissau": 36
+    "Malawi": "1.97"
   },
   {
-    "Guyana": 43
+    "United Arab Emirates": "1.979"
   },
   {
-    "Haiti": 42
+    "Kazakhstan": "1.98"
   },
   {
-    "Honduras": 49
+    "Jamaica": "1.986"
   },
   {
-    "Hungary": 83
+    "Bolivia": "2.001"
   },
   {
-    "Iceland": 95
+    "Nepal": "2.006"
   },
   {
-    "India": 47
+    "China": "2.009"
   },
   {
-    "Indonesia": 58
+    "Tunisia": "2.01"
   },
   {
-    "Iran": 35
+    "Equatorial Guinea": "2.013"
   },
   {
-    "Iraq": 14
+    "Dominican Republic": "2.019"
   },
   {
-    "Ireland": 83
+    "Morocco": "2.02"
   },
   {
-    "Israel": 60
+    "Angola": "2.02"
   },
   {
-    "Italy": 77
+    "Uzbekistan": "2.033"
   },
   {
-    "Ivory Coast": 37
+    "Guinea-Bissau": "2.045"
   },
   {
-    "Jamaica": 55
+    "Bangladesh": "2.051"
   },
   {
-    "Japan": 83
+    "Rwanda": "2.051"
   },
   {
-    "Jordan": 53
+    "Ivory Coast": "2.053"
   },
   {
-    "Kazakhstan": 72
+    "Tanzania": "2.058"
   },
   {
-    "Kenya": 45
+    "Thailand": "2.061"
   },
   {
-    "Kosovo": 44
+    "Gabon": "2.068"
   },
   {
-    "Kuwait": 66
+    "Georgia": "2.071"
   },
   {
-    "Kyrgyz Republic": 38
+    "Azerbaijan": "2.09"
   },
   {
-    "Laos": 51
+    "Algeria": "2.094"
   },
   {
-    "Latvia": 80
+    "Ecuador": "2.095"
   },
   {
-    "Lebanon": 35
+    "Papua New Guinea": "2.095"
   },
   {
-    "Lesotho": 47
+    "Cuba": "2.103"
   },
   {
-    "Liberia": 45
+    "Turkmenistan": "2.107"
   },
   {
-    "Libya": 21
+    "Kyrgyzstan": "2.11"
   },
   {
-    "Liechtenstein": 89
+    "Tajikistan": "2.114"
   },
   {
-    "Lithuania": 79
+    "Guatemala": "2.13"
   },
   {
-    "Luxembourg": 74
+    "Peru": "2.13"
   },
   {
-    "Macedonia": 55
+    "Togo": "2.13"
   },
   {
-    "Madagascar": 49
+    "Guyana": "2.134"
   },
   {
-    "Malawi": 53
+    "Sri Lanka": "2.136"
   },
   {
-    "Malaysia": 69
+    "Bahrain": "2.145"
   },
   {
-    "Maldives": 46
+    "Eswatini": "2.168"
   },
   {
-    "Mali": 31
+    "Benin": "2.177"
   },
   {
-    "Malta": 78
+    "Lesotho": "2.191"
   },
   {
-    "Mauritania": 35
+    "Djibouti": "2.196"
   },
   {
-    "Mauritius": 80
+    "Congo": "2.21"
   },
   {
-    "Mexico": 65
+    "Mauritania": "2.228"
   },
   {
-    "Moldova": 67
+    "Philippines": "2.229"
   },
   {
-    "Monaco": 88
+    "Belarus": "2.248"
   },
   {
-    "Mongolia": 71
+    "Kenya": "2.254"
   },
   {
-    "Montenegro": 70
+    "Mozambique": "2.259"
   },
   {
-    "Montserrat": 70
+    "Saudi Arabia": "2.26"
   },
   {
-    "Morocco": 54
+    "Honduras": "2.265"
   },
   {
-    "Mozambique": 46
+    "Egypt": "2.267"
   },
   {
-    "Myanmar": 39
+    "El Salvador": "2.279"
   },
   {
-    "Namibia": 71
+    "Nicaragua": "2.294"
   },
   {
-    "Nauru": 80
+    "Zimbabwe": "2.3"
   },
   {
-    "Nepal": 59
+    "Uganda": "2.3"
   },
   {
-    "Netherlands": 75
+    "India": "2.314"
   },
   {
-    "New Zealand": 90
+    "Guinea": "2.359"
   },
   {
-    "Nicaragua": 46
+    "Burundi": "2.393"
   },
   {
-    "Niger": 37
+    "Haiti": "2.395"
   },
   {
-    "Nigeria": 33
+    "South Africa": "2.405"
   },
   {
-    "North Korea": 21
+    "United States": "2.448"
   },
   {
-    "Norway": 85
+    "Brazil": "2.462"
   },
   {
-    "Oman": 76
+    "Eritrea": "2.505"
   },
   {
-    "Pakistan": 26
+    "Palestine": "2.538"
   },
   {
-    "Palau": 80
+    "Lebanon": "2.581"
   },
   {
-    "Panama": 65
+    "Mexico": "2.599"
   },
   {
-    "Papua New Guinea": 47
+    "Libya": "2.605"
   },
   {
-    "Paraguay": 45
+    "Niger": "2.625"
   },
   {
-    "Peru": 50
+    "Cameroon": "2.66"
   },
   {
-    "Philippines": 47
+    "Venezuela": "2.693"
   },
   {
-    "Poland": 84
+    "Colombia": "2.693"
   },
   {
-    "Portugal": 57
+    "Chad": "2.699"
   },
   {
-    "Puerto Rico": 34
+    "Israel": "2.706"
   },
   {
-    "Qatar": 84
+    "Nigeria": "2.713"
   },
   {
-    "Republic of the Congo": 54
+    "Myanmar": "2.741"
   },
   {
-    "Romania": 80
+    "Pakistan": "2.745"
   },
   {
-    "Russia": 34
+    "Turkey": "2.8"
   },
   {
-    "Rwanda": 37
+    "Iran": "2.8"
   },
   {
-    "Saint Kitts and Nevis": 70
+    "North Korea": "2.848"
   },
   {
-    "Saint Lucia": 70
+    "Burkina Faso": "2.868"
   },
   {
-    "Samoa": 70
+    "Ethiopia": "2.872"
   },
   {
-    "Saudi Arabia": 46
+    "Central African Republic": "2.934"
   },
   {
-    "Senegal": 45
+    "Mali": "2.963"
   },
   {
-    "Serbia": 77
+    "Iraq": "3.006"
   },
   {
-    "Seychelles": 80
+    "Sudan": "3.023"
   },
   {
-    "Sierra Leone": 50
+    "Somalia": "3.036"
   },
   {
-    "Singapore": 90
+    "Ukraine": "3.043"
   },
   {
-    "Slovakia": 80
+    "Russia": "3.142"
   },
   {
-    "Slovenia": 87
+    "Democratic Republic of the Congo": "3.214"
   },
   {
-    "Somalia": 16
+    "South Sudan": "3.221"
   },
   {
-    "South Africa": 48
+    "Syria": "3.294"
   },
   {
-    "South Korea": 82
+    "Yemen": "3.35"
   },
   {
-    "South Sudan": 10
-  },
-  {
-    "Spain": 83
-  },
-  {
-    "Sri Lanka": 60
-  },
-  {
-    "Sudan": 55
-  },
-  {
-    "Suriname": 62
-  },
-  {
-    "Sweden": 83
-  },
-  {
-    "Switzerland": 89
-  },
-  {
-    "Syria": 10
-  },
-  {
-    "Taiwan": 54
-  },
-  {
-    "Tajikistan": 38
-  },
-  {
-    "Tanzania": 59
-  },
-  {
-    "Thailand": 48
-  },
-  {
-    "The Bahamas": 49
-  },
-  {
-    "Timor-Leste": 48
-  },
-  {
-    "Togo": 69
-  },
-  {
-    "Tonga": 70
-  },
-  {
-    "Trinidad and Tobago": 43
-  },
-  {
-    "Tunisia": 53
-  },
-  {
-    "Turkey": 45
-  },
-  {
-    "Turkmenistan": 42
-  },
-  {
-    "Uganda": 49
-  },
-  {
-    "Ukraine": 30
-  },
-  {
-    "United Arab Emirates": 79
-  },
-  {
-    "United Kingdom": 77
-  },
-  {
-    "United States": 68
-  },
-  {
-    "Uruguay": 77
-  },
-  {
-    "Uzbekistan": 40
-  },
-  {
-    "Vanuatu": 70
-  },
-  {
-    "Venezuela": 33
-  },
-  {
-    "Vietnam": 73
-  },
-  {
-    "Yemen": 10
-  },
-  {
-    "Zambia": 52
-  },
-  {
-    "Zimbabwe": 53
+    "Afghanistan": "3.448"
   }
 ]

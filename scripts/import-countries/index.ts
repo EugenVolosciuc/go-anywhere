@@ -30,6 +30,18 @@ const countryIndexes = JSON.parse(
   await countryIndexesFile.text()
 ) as CountryIndexData[];
 
+const countrySafetyIndexesFile = Bun.file(
+  path.join(
+    import.meta.dir,
+    "..",
+    "scrape-country-safety-indexes",
+    "country-safety-indexes.json"
+  )
+);
+const countrySafetyIndexes = JSON.parse(
+  await countrySafetyIndexesFile.text()
+) as Record<string, string>[];
+
 const coordinatesFile = Bun.file(
   path.join(import.meta.dir, "central-coordinates.json")
 );

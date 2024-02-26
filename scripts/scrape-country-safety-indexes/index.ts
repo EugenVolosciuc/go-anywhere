@@ -1,29 +1,37 @@
 import path from "node:path";
-import * as cheerio from "cheerio";
+import puppeteer from "puppeteer";
+
 import { saveTimeLastRan } from "scripts/libs/save-time-last-ran";
 
 console.time("total");
 
-const DATA_SOURCE = "https://www.travelsafe-abroad.com/countries/";
-const response = await fetch(DATA_SOURCE);
-const html = await response.text();
-
-// TODO: Need to update this script. The indexes are more on the bad side of things,
-// might want to make an average between the "oficial" index and the user sentiment,
-// this requires going through each country's page
-
-const $ = cheerio.load(html);
-
-const table = $(".sortable.index-table");
+// Lower score is better
+const DATA_SOURCE = "https://www.visionofhumanity.org/maps/#/";
 
 const result: Record<string, string>[] = [];
 
-$("tbody tr", table).each((rowIndex, row) => {
-  const countryName = $("td a", row).text();
-  const index = $("td span", row).text();
+const browser = await puppeteer.launch();
+const page = await browser.newPage();
+await page.goto(DATA_SOURCE);
 
-  result.push({ [countryName]: index });
-});
+await new Promise((resolve) => setTimeout(resolve, 5000));
+
+const tableRows = await page.$$("table tbody tr");
+
+for await (const row of tableRows) {
+  const countryName = await row.$eval("td:nth-child(2) span", (elem) =>
+    elem.textContent?.trim()
+  );
+
+  const safetyIndex = await row.$eval(
+    "td:nth-child(3) span b",
+    (elem) => elem.textContent
+  );
+
+  if (countryName && safetyIndex) {
+    result.push({ [countryName]: safetyIndex });
+  }
+}
 
 await Bun.write(
   Bun.file(path.join(import.meta.dir, "country-safety-indexes.json")),

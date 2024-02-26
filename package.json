@@ -23,7 +23,8 @@
   "devDependencies": {
     "bun-types": "latest",
     "cheerio": "^1.0.0-rc.12",
-    "csv-simple-parser": "^1.0.2"
+    "csv-simple-parser": "^1.0.2",
+    "puppeteer": "^22.3.0"
   },
   "module": "src/index.js"
 }
