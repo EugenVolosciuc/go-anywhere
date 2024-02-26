@@ -16,13 +16,12 @@ export const TravelController = (app: Elysia) => {
 
       if (!romania) return "Could not find Romania";
 
-      const travelPeriodScore = CountryService.calculateTravelPeriodScore(
-        romania,
-        query.period
-      );
-      const proximityScore = CountryService.calculateProximityScore(
-        romania,
-        query.location
+      const travelPeriodScore = CountryService.selectCountriesForTrip(
+        query.period,
+        query.location,
+        query.budget.max,
+        query.numberOfPeople,
+        { proximity: 0.4, safety: 0.25, travelPeriod: 0.35 }
       );
       // const closestAirport = await AirportService.findClosestAirport({
       //   lat: query.location.lat,
@@ -55,7 +54,8 @@ export const TravelController = (app: Elysia) => {
 
       return {
         travelPeriodScore,
-        proximityScore,
+        // travelPeriodScore,
+        // proximityScore,
         // closestAirport,
         // nearestCities,
       };

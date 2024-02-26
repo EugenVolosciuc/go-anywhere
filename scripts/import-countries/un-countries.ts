@@ -143,7 +143,7 @@ export const UNCountries = [
   "South Korea",
   "Republic of Moldova",
   "Romania",
-  "Russian Federation",
+  "Russia",
   "Rwanda",
   "Saint Kitts and Nevis",
   "Saint Lucia",

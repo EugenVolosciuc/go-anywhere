@@ -10,6 +10,7 @@ const countryIndexesSchema = new mongoose.Schema({
   groceriesIndex: { type: String, required: true },
   restaurantPriceIndex: { type: String, required: true },
   localPurchasingPowerIndex: { type: String, required: true },
+  safetyIndex: { type: String, required: false },
 });
 
 const countryTravelExpensesSchema = new mongoose.Schema({
