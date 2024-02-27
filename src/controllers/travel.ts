@@ -3,6 +3,7 @@ import { CountryModel } from "src/models/country";
 import { AirportService } from "src/services/AirportService";
 import { PlacesService } from "src/services/PlacesService";
 import { CountryService } from "src/services/CountryService";
+import { TripService } from "src/services/TripService";
 
 enum Currency {
   USD = "USD",
@@ -12,29 +13,13 @@ export const TravelController = (app: Elysia) => {
   app.get(
     "/travel",
     async ({ query }) => {
-      const romania = await CountryModel.findOne({ alpha2: "RO" });
-
-      if (!romania) return "Could not find Romania";
-
-      const travelPeriodScore = CountryService.selectCountriesForTrip(
+      const countries = await TripService.selectCountriesForTrip(
         query.period,
         query.location,
         query.budget.max,
         query.numberOfPeople,
         { proximity: 0.4, safety: 0.25, travelPeriod: 0.35 }
       );
-      // const closestAirport = await AirportService.findClosestAirport({
-      //   lat: query.location.lat,
-      //   long: query.location.long,
-      // });
-
-      // const nearestCities = await PlacesService.findPlaces({
-      //   filters: {
-      //     location: { lat: query.location.lat, long: query.location.long },
-      //     minPopulation: 10000,
-      //     radius: 100,
-      //   },
-      // });
 
       // What needs to be done here?
       // In the end, we need to return a list of trips
@@ -50,10 +35,8 @@ export const TravelController = (app: Elysia) => {
       //    - Food and dining costs - Same as Average daily expenses for travelers
       // - Split the period into multiple locations inside the country
 
-      // const countries = new CountryService().getRecommendedCountries(query.location, )
-
       return {
-        travelPeriodScore,
+        countries,
         // travelPeriodScore,
         // proximityScore,
         // closestAirport,

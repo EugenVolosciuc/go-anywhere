@@ -1,5 +1,6 @@
 import axios from "axios";
 
+import { CountryModel } from "src/models/country";
 import { Location, SortOrder } from "src/types";
 
 type GeoDBCitiesResponse<T> = {
@@ -111,7 +112,7 @@ export class PlacesService {
     };
   }
 
-  static async findPlaces({
+  static async findCities({
     filters: _filters,
     sort,
     pagination = { limit: 10 },
@@ -154,5 +155,24 @@ export class PlacesService {
       ...data,
       data: this.getUniqueGeoDBCities(data.data).map(this.geoDBCityToCity),
     };
+  }
+
+  static async findCountryByLocation(location: Location) {
+    const citiesData = await this.findCities({
+      filters: { location, radius: 100 },
+      pagination: { limit: 1 },
+    });
+
+    if (citiesData.data.length === 0)
+      throw new Error("Could not find the user's location");
+
+    const { countryCode } = citiesData.data[0];
+
+    const country = await CountryModel.findOne({ alpha2: countryCode });
+
+    if (!country)
+      throw new Error(`Could not find the country with code ${countryCode}`);
+
+    return country.toObject();
   }
 }

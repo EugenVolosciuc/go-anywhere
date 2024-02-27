@@ -1,14 +1,12 @@
 import dayjs from "dayjs";
 
-import { Country, CountryModel } from "src/models/country";
-import { Location, TravelPeriod, Weights } from "src/types";
+import { Country } from "src/models/country";
+import { BudgetType, Location, TravelPeriod, Weights } from "src/types";
 import { GeospatialService } from "./GeospatialService";
 import { StatisticsService } from "./StatisticsService";
 
 // The scoring scale we use here is from 0 to 1, 0 being worst and 1 being best
 export class CountryService {
-  private static EXCLUDED_COUNTRY_ALPHA_2_IDS = ["IR", "KP", "SY", "CU"];
-
   // Penalty for missing data (set to 15% of the maximum criterion score)
   private static MISSING_DATA_PENALTY_SCORE = 0.15;
 
@@ -24,6 +22,8 @@ export class CountryService {
     BR: 0.12,
     AU: 0.1,
   };
+
+  static EXCLUDED_COUNTRY_ALPHA_2_IDS = ["IR", "KP", "SY", "CU"];
 
   private static calculateTravelPeriodScore(
     country: Country,
@@ -97,9 +97,6 @@ export class CountryService {
     return safetyScore;
   }
 
-  // calculateAffordabilityScore - NOT NEEDED. Will replace with the following logic:
-  // Having data for three expense levels, if the total expense for the trip period is over the cheapest expense level - filter the country out of the list
-
   // We are using normalized weights, meaning that the total of all weights must be equal to 1
   private static checkWeights(weights: Record<Weights, number>) {
     const weightsSum = Object.values(weights).reduce((accumulator, weight) => {
@@ -128,40 +125,24 @@ export class CountryService {
     );
   }
 
-  static async selectCountriesForTrip(
-    travelPeriod: TravelPeriod,
-    startingPoint: Location,
-    budget: number,
-    numberOfPeople: number,
-    weights: Record<Weights, number>,
-    excludedCountries: string[] = []
-  ) {
-    const countries = await CountryModel.where("alpha2").nin(
-      Array.from(
-        new Set([...this.EXCLUDED_COUNTRY_ALPHA_2_IDS, excludedCountries])
-      )
-    );
+  static getDailyCountryBudget(
+    country: Country
+  ): Partial<{ [key in BudgetType]: number }> | null {
+    if (!country.travelExpenses) return null;
 
-    // TODO: filter out countries if the expenses per person per day are bigger than the budget per person per day
-    // getDailyTripBudgetPerPerson
+    return Object.entries(country.travelExpenses).reduce<
+      Partial<{ [key in BudgetType]: number }>
+    >((accumulator, [budgetType, expenses]) => {
+      if (!expenses) return accumulator;
 
-    // TODO: filter out starting point country
+      let sum = 0;
+      Object.values(expenses).forEach((expense) => {
+        if (typeof expense === "number") sum += expense;
+      });
 
-    const countryScores = countries.map((country) => {
-      const score = this.getOverallCountryScore(
-        country,
-        travelPeriod,
-        startingPoint,
-        weights
-      );
+      accumulator[parseInt(budgetType, 10) as BudgetType] = sum;
 
-      console.log(`${country.alpha2} score`, score);
-      return {
-        country: country.alpha2,
-        score,
-      };
-    });
-
-    return countryScores;
+      return accumulator;
+    }, {});
   }
 }
