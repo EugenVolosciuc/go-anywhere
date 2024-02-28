@@ -2,6 +2,7 @@ import axios from "axios";
 
 import { CountryModel } from "src/models/country";
 import { Location, SortOrder } from "src/types";
+import { CountryService } from "./CountryService";
 
 type GeoDBCitiesResponse<T> = {
   data: T[];
@@ -70,12 +71,9 @@ enum DistanceUnit {
   "MI" = "MI",
 }
 
-// Iran, North Korea, Syria, Cuba
-const excludedCountryIds = ["IR", "KP", "SY", "CU"];
-
 const defaultFilters: Filters = {
   distanceUnit: DistanceUnit.KM,
-  excludedCountryIds,
+  excludedCountryIds: CountryService.EXCLUDED_COUNTRY_ALPHA_2_IDS,
 };
 
 export class PlacesService {
@@ -121,40 +119,47 @@ export class PlacesService {
     sort?: Sort;
     pagination?: Pagination;
   }) {
-    const filters: Filters = { ...defaultFilters, ..._filters };
+    try {
+      const filters: Filters = { ...defaultFilters, ..._filters };
 
-    const options = {
-      method: "GET",
-      url: `${this.BASE_URL}/v1/geo/places`,
-      params: {
-        type: "CITY",
-        ...filters,
-        countryIds: filters.countryIds
-          ? filters.countryIds.join(",")
-          : undefined,
-        excludedCountryIds: filters.excludedCountryIds
-          ? filters.excludedCountryIds.join(",")
-          : undefined,
-        location: filters.location
-          ? this.getISO6709FormatLocation(filters.location)
-          : undefined,
-        pagination,
-        sort: sort ? `${sort.order === "asc" ? "" : "-"}${sort.by}` : undefined,
-      },
-      headers: {
-        "X-RapidAPI-Key": Bun.env.RAPIDAPI_KEY,
-        "X-RapidAPI-Host": "wft-geo-db.p.rapidapi.com",
-      },
-    };
+      const options = {
+        method: "GET",
+        url: `${this.BASE_URL}/v1/geo/places`,
+        params: {
+          type: "CITY",
+          ...filters,
+          countryIds: filters.countryIds
+            ? filters.countryIds.join(",")
+            : undefined,
+          excludedCountryIds: filters.excludedCountryIds
+            ? filters.excludedCountryIds.join(",")
+            : undefined,
+          location: filters.location
+            ? this.getISO6709FormatLocation(filters.location)
+            : undefined,
+          pagination,
+          sort: sort
+            ? `${sort.order === "asc" ? "" : "-"}${sort.by}`
+            : undefined,
+        },
+        headers: {
+          "X-RapidAPI-Key": Bun.env.RAPIDAPI_KEY,
+          "X-RapidAPI-Host": "wft-geo-db.p.rapidapi.com",
+        },
+      };
 
-    const { data } = await axios.request<GeoDBCitiesResponse<GeoDBCity>>(
-      options
-    );
+      const { data } = await axios.request<GeoDBCitiesResponse<GeoDBCity>>(
+        options
+      );
 
-    return {
-      ...data,
-      data: this.getUniqueGeoDBCities(data.data).map(this.geoDBCityToCity),
-    };
+      return {
+        ...data,
+        data: this.getUniqueGeoDBCities(data.data).map(this.geoDBCityToCity),
+      };
+    } catch (error: any) {
+      console.log("error", error);
+      throw new Error(error);
+    }
   }
 
   static async findCountryByLocation(location: Location) {

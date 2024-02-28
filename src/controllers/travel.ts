@@ -35,13 +35,7 @@ export const TravelController = (app: Elysia) => {
       //    - Food and dining costs - Same as Average daily expenses for travelers
       // - Split the period into multiple locations inside the country
 
-      return {
-        countries,
-        // travelPeriodScore,
-        // proximityScore,
-        // closestAirport,
-        // nearestCities,
-      };
+      return countries;
     },
     {
       query: t.Object({

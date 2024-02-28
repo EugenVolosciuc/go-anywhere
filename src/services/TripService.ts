@@ -7,13 +7,22 @@ import { CountryService } from "./CountryService";
 import { GeospatialService } from "./GeospatialService";
 
 export class TripService {
-  // TODO: Instead of this, we should have a map of approximate costs of flight from region to region (continent to continent?)
-  // With the current implementation, we are getting African countries as variants for trips from Romania with a 1000$ budget with 3 people.
-  // 30% is clearly not enough in this case for flight tickets.
-  static BUDGET_ALLOCATED_FOR_TRANSPORTATION = 0.3 as const; // 30%
+  // https://www.rome2rio.com/labs/2018-global-flight-price-ranking/
+  // TODO: This is old data, would be nice to update it
+  static FLIGHT_PRICE_PER_KM = 0.17; // USD
 
-  static getDailyTripBudgetPerPerson(budget: number, period: TravelPeriod) {
-    return budget / this.getNumberOfTripDays(period);
+  static getTripBudgetWithoutTransportation(
+    budget: number,
+    period: TravelPeriod,
+    distance: number
+  ) {
+    const approximateBothWaysFlightCostForDistance =
+      this.getApproximateBothWaysFlightCostForDistance(distance);
+
+    return (
+      (budget - approximateBothWaysFlightCostForDistance) /
+      this.getNumberOfTripDays(period)
+    );
   }
 
   static getNumberOfTripDays(period: TravelPeriod) {
@@ -29,14 +38,16 @@ export class TripService {
     dailyExpenses: NonNullable<
       ReturnType<typeof CountryService.getDailyCountryBudget>
     >,
-    dailyTripBudgetPerPerson: number
+    numberOfPeople: number,
+    totalDailyBudgetPerPerson: number
   ) {
     let budgetType: BudgetType = 1;
 
     for (let i = 1; i <= 3; i++) {
       if (typeof dailyExpenses[i as BudgetType] === "number") {
         const userCanAffordTheCountryBudget =
-          dailyTripBudgetPerPerson >= dailyExpenses[i as BudgetType]!;
+          totalDailyBudgetPerPerson / numberOfPeople >=
+          dailyExpenses[i as BudgetType]!;
 
         if (userCanAffordTheCountryBudget) budgetType = i as BudgetType;
       }
@@ -44,6 +55,12 @@ export class TripService {
 
     return budgetType;
   }
+
+  private static getApproximateBothWaysFlightCostForDistance = (
+    distance: number
+  ) => {
+    return Math.floor(distance * this.FLIGHT_PRICE_PER_KM * 2);
+  };
 
   static async selectCountriesForTrip(
     travelPeriod: TravelPeriod,
@@ -65,12 +82,8 @@ export class TripService {
         ])
       )
     );
-    const dailyTripBudgetPerPerson = TripService.getDailyTripBudgetPerPerson(
-      budget,
-      travelPeriod
-    );
 
-    const sortedCountries = countries
+    const filteredCountriesData = countries
       .reduce<
         {
           country: Country;
@@ -87,18 +100,6 @@ export class TripService {
         );
 
         if (dailyExpenses) {
-          const bestAffordedBudgetType = this.getBestAffordedBudgetType(
-            dailyExpenses,
-            dailyTripBudgetPerPerson
-          );
-
-          const score = CountryService.getOverallCountryScore(
-            country,
-            travelPeriod,
-            startingPoint,
-            weights
-          );
-
           const countryCentralLocation =
             GeospatialService.dbCoordinatesToLocation(
               country.location.coordinates as [number, number]
@@ -107,6 +108,26 @@ export class TripService {
           const distance = GeospatialService.calculateHaversineDistance(
             startingPoint,
             countryCentralLocation
+          );
+
+          const tripBudgetWithoutTransportation =
+            this.getTripBudgetWithoutTransportation(
+              budget,
+              travelPeriod,
+              distance
+            );
+
+          const bestAffordedBudgetType = this.getBestAffordedBudgetType(
+            dailyExpenses,
+            numberOfPeople,
+            tripBudgetWithoutTransportation
+          );
+
+          const score = CountryService.getOverallCountryScore(
+            country,
+            travelPeriod,
+            startingPoint,
+            weights
           );
 
           data.push({
@@ -120,37 +141,102 @@ export class TripService {
 
         return data;
       }, [])
-      .filter((countryAndScore) => {
-        // We might not have the info about the on-a-budget expenses, so at least get one of them
-        const lowestDailyCountryExpenses =
-          countryAndScore.dailyExpenses[1] ||
-          countryAndScore.dailyExpenses[2] ||
-          countryAndScore.dailyExpenses[3]!;
+      // Filter out countries that are not in the user's budget
+      .filter((countryData) => {
+        const numberOfTripDays = this.getNumberOfTripDays(travelPeriod);
 
-        // Because we can't check for flight prices at this stage, allocate a portion of the budget to flights/transportation
-        const lowestDailyCountryExpensesWithoutTransportation =
-          lowestDailyCountryExpenses /
-          (1 - TripService.BUDGET_ALLOCATED_FOR_TRANSPORTATION);
+        const approximateBothWaysFlightCostForDistance =
+          this.getApproximateBothWaysFlightCostForDistance(
+            countryData.distance
+          );
 
-        return (
-          dailyTripBudgetPerPerson >=
-          lowestDailyCountryExpensesWithoutTransportation
+        const dailyBudgetWithoutTransportationForAllPeople = Math.floor(
+          (budget - approximateBothWaysFlightCostForDistance * numberOfPeople) /
+            numberOfTripDays
         );
-      })
-      .sort((a, b) => b.score - a.score)
-      .map((countryData) => ({
-        country: countryData.country.name,
-        score: countryData.score,
-        distance: countryData.distance,
-        bestMonths: countryData.country.bestMonthsToVisit,
-        budgetType: countryData.selectedBudgetType,
-      }));
-    // TODO: get the best country for each budgetType
-    // What is the best country?
-    // The best country for the budget type is the one with the highest overall score of this type and furthest distance
-    // The best country for the mid-range type is the one with the highest overall score of this type and a mid distance
-    // The best country for the luxury type is the one with the highest overall score
 
-    return sortedCountries; // TODO: change with best country for each budgetType
+        const dailyExpensesForSelectedBudgetTypeForAllPeople =
+          countryData.dailyExpenses[countryData.selectedBudgetType]! *
+          numberOfPeople;
+
+        // Compare the dailyBudgetWithoutTransportationForAllPeople to country's lowest expenses for all the people in the trip
+        return (
+          dailyBudgetWithoutTransportationForAllPeople >=
+          dailyExpensesForSelectedBudgetTypeForAllPeople
+        );
+      });
+
+    const finalCountries: Partial<
+      Record<
+        BudgetType,
+        (typeof filteredCountriesData)[number] & {
+          isNotExpectedCountry?: boolean;
+        }
+      >
+    > = {};
+
+    // Furthest country of budget type 1 with highest score
+    const bestLongDistanceCountry = filteredCountriesData
+      .filter((countryData) => countryData.selectedBudgetType === 1)
+      .sort((a, b) => {
+        const distanceOrder = b.distance - a.distance;
+        const scoreOrder = b.score - a.score;
+
+        return distanceOrder || scoreOrder;
+      })[0];
+
+    if (bestLongDistanceCountry) finalCountries[1] = bestLongDistanceCountry;
+
+    // Country of budget type 2 with highest score (maybe also check for a mid-distance? I don't know)
+    const bestMidRangeCountry = filteredCountriesData
+      .filter((countryData) => countryData.selectedBudgetType === 2)
+      .sort((a, b) => b.score - a.score)[0];
+
+    if (bestMidRangeCountry) finalCountries[2] = bestMidRangeCountry;
+
+    // Country of budget type 3 with highest score
+    const bestLuxuryCountry = filteredCountriesData
+      .filter((countryData) => countryData.selectedBudgetType === 3)
+      .sort((a, b) => b.score - a.score)[0];
+
+    if (bestLuxuryCountry) finalCountries[3] = bestLuxuryCountry;
+
+    // If we don't have all three countries at this point, just go and pick the next best countries
+    let assignedCountryCount = 0;
+
+    console.log("assignedCountryCount", assignedCountryCount);
+    console.log(
+      "filteredCountriesData.length - 2",
+      filteredCountriesData.length - 2
+    );
+    while (
+      Object.keys(finalCountries).length < 3 &&
+      assignedCountryCount < filteredCountriesData.length - 2 // We might have a max of two countries missing from finalCountries
+    ) {
+      const selectedCountryCodes = Object.values(finalCountries).map(
+        (countryData) => countryData.country.alpha2
+      );
+
+      const missingBudgetType = !finalCountries[1]
+        ? 1
+        : !finalCountries[2]
+        ? 2
+        : 3;
+
+      // Avoid having the same country two times
+      if (
+        !selectedCountryCodes.includes(
+          filteredCountriesData[assignedCountryCount].country.alpha2
+        )
+      ) {
+        finalCountries[missingBudgetType] = {
+          ...filteredCountriesData[assignedCountryCount],
+          isNotExpectedCountry: true,
+        };
+      }
+      assignedCountryCount++;
+    }
+
+    return finalCountries; // TODO: change with best country for each budgetType
   }
 }

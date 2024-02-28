@@ -23,7 +23,18 @@ export class CountryService {
     AU: 0.1,
   };
 
-  static EXCLUDED_COUNTRY_ALPHA_2_IDS = ["IR", "KP", "SY", "CU"];
+  // TODO: Move this to the database
+  // Iran, Iraq, Libya, North Korea, Syria, Cuba, Vatican, Ukraine
+  static EXCLUDED_COUNTRY_ALPHA_2_IDS = [
+    "IR",
+    "IQ",
+    "LY",
+    "KP",
+    "SY",
+    "CU",
+    "VA",
+    "UA",
+  ];
 
   private static calculateTravelPeriodScore(
     country: Country,
