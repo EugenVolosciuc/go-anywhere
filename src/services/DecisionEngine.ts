@@ -1,5 +1,5 @@
-import { Country } from "src/models/country";
-import { BudgetType, Location } from "src/types";
+import { Country } from "models/country";
+import { BudgetType, Location } from "types";
 
 interface CriteriaWeights {
   [criterion: string]: number;

@@ -1,7 +1,7 @@
 import { Elysia } from "elysia";
 import mongoose from "mongoose";
 
-import { TravelController } from "src/controllers/travel";
+import { TravelController } from "controllers/travel";
 
 if (!Bun.env.DATABASE_URL) throw new Error("Database connection URL missing");
 await mongoose.connect(Bun.env.DATABASE_URL);

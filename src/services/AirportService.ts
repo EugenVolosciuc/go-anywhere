@@ -1,5 +1,5 @@
-import { AirportModel } from "src/models/airport";
-import { Location } from "src/types";
+import { AirportModel } from "models/airport";
+import { Location } from "types";
 
 export class AirportService {
   static async findClosestAirport({ lat, long }: Location) {

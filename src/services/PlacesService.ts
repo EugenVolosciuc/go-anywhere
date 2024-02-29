@@ -1,7 +1,7 @@
 import axios from "axios";
 
-import { CountryModel } from "src/models/country";
-import { Location, SortOrder } from "src/types";
+import { CountryModel } from "models/country";
+import { Location, SortOrder } from "types";
 import { CountryService } from "./CountryService";
 
 type GeoDBCitiesResponse<T> = {

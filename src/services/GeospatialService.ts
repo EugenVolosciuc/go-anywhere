@@ -1,4 +1,4 @@
-import { Location } from "src/types";
+import { Location } from "types";
 
 export class GeospatialService {
   static EARTH_RADIUS_KM = 6371 as const;

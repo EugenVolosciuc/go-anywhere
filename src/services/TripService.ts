@@ -1,8 +1,8 @@
 import dayjs from "dayjs";
 
-import { BudgetType, Location, TravelPeriod, Weights } from "src/types";
+import { BudgetType, Location, TravelPeriod, Weights } from "types";
 import { PlacesService } from "./PlacesService";
-import { Country, CountryModel } from "src/models/country";
+import { Country, CountryModel } from "models/country";
 import { CountryService } from "./CountryService";
 import { GeospatialService } from "./GeospatialService";
 
